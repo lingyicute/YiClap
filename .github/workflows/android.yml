@@ -18,6 +18,8 @@ jobs:
           distribution: 'zulu'
           java-version: 17
       - uses: gradle/gradle-build-action@v2
+      - name: Chmod
+        run: chmod 755 gradlew
       - name: Lint Android
         run: ./gradlew lint
 
@@ -30,5 +32,7 @@ jobs:
           java-version: '17'
           distribution: 'zulu'
       - uses: gradle/gradle-build-action@v2
+      - name: Chmod
+        run: chmod 755 gradlew
       - name: Build
         run: ./gradlew app:assemble
