@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <code.name.monkey.retromusic.views.ListItemView
+        android:id="@+id/version"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:listItemIcon="@drawable/ic_info_outline"
+        app:listItemSummary="@string/pref_summary_open_source_licences"
+        app:listItemTitle="@string/version" />
+
+    <code.name.monkey.retromusic.views.ListItemView
+        android:id="@+id/changelog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/version"
+        app:listItemIcon="@drawable/ic_file_edit"
+        app:listItemSummary="@string/changelog_summary"
+        app:listItemTitle="@string/changelog"/>
+
+    <code.name.monkey.retromusic.views.ListItemView
+        android:id="@+id/appGithub"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/changelog"
+        app:listItemIcon="@drawable/ic_github_circle"
+        app:listItemSummary="@string/git_hub_summary"
+        app:listItemTitle="@string/git_hub" />
+
+    <code.name.monkey.retromusic.views.ListItemView
+        android:id="@+id/appTranslation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appGithub"
+        app:listItemIcon="@drawable/ic_flag"
+        app:listItemSummary="@string/translate_community"
+        app:listItemTitle="@string/translate" />
+
+    <code.name.monkey.retromusic.views.ListItemView
+        android:id="@+id/bugReportLink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appTranslation"
+        app:listItemIcon="@drawable/ic_bug_report"
+        app:listItemSummary="@string/bug_report_summary"
+        app:listItemTitle="@string/report_bug" />
+
+    <code.name.monkey.retromusic.views.ListItemView
+        android:id="@+id/faqLink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bugReportLink"
+        app:listItemIcon="@drawable/ic_help"
+        app:listItemSummary="@string/help_summary"
+        app:listItemTitle="@string/faq"/>
+
+    <code.name.monkey.retromusic.views.ListItemView
+        android:id="@+id/openSource"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/faqLink"
+        app:listItemIcon="@drawable/ic_license"
+        app:listItemSummary="@string/pref_summary_open_source_licences"
+        app:listItemTitle="@string/pref_title_open_source_licences"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
