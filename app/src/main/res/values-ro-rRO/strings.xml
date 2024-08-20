@@ -160,7 +160,7 @@
     <string name="depth">Profunzime</string>
     <string name="description">Descriere</string>
     <string name="device_info">Informații dispozitiv</string>
-    <string name="dialog_message_set_ringtone">Permite aplicației Retro Music să modifice setările audio</string>
+    <string name="dialog_message_set_ringtone">Permite aplicației YiClap să modifice setările audio</string>
     <string name="dialog_title_set_ringtone">Setare ton apel</string>
     <string name="disc_hint">Număr disc</string>
     <string name="do_you_want_to_clear_the_blacklist">Doriți să ștergeți lista neagră?</string>
@@ -223,7 +223,7 @@
     <string name="import_playlist">Importare listă de redare</string>
     <string name="import_playlist_message">Importă toate listele de redare listate în Android Media Store cu melodii, dacă listele de redare există deja, melodiile vor fi îmbinate.</string>
     <string name="inserted_x_songs_into_playlist_x">Au fost insertate %1$d cântece în playlist-ul %2$s.</string>
-    <string name="instagram_page_summary">Partajați configurația Retro Music pentru a o publica pe Instagram</string>
+    <string name="instagram_page_summary">Partajați configurația YiClap pentru a o publica pe Instagram</string>
     <string name="keyboard">Tastatură</string>
     <string name="label_bit_rate">Rată de biți</string>
     <string name="label_file_format">Format</string>
@@ -305,7 +305,7 @@
     <string name="personalize_settings_summary">Personalizează UI si pagina de redare</string>
     <string name="pick_from_local_storage">Alegeți din spațiul de stocare local</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Urmărește pagina Pinterest pentru inspirație de design Retro Music</string>
+    <string name="pinterest_page_summary">Urmărește pagina Pinterest pentru inspirație de design YiClap</string>
     <string name="plain">Simplu</string>
     <string name="playList_already_exits">Lista de redare există deja</string>
     <string name="playback_pitch">Pas</string>
@@ -450,7 +450,7 @@
     <string name="restored_previous_purchase_please_restart">A fost restaurată achiziția anterioară. Reporniți aplicația pentru a utiliza toate funcțiile.</string>
     <string name="restored_previous_purchases">Au fost restabilite achizițiile anterioare.</string>
     <string name="restoring_purchase">Se restabilește achiziția...</string>
-    <string name="retro_music_player">Retro Music Player</string>
+    <string name="retro_music_player">YiClap Player</string>
     <string name="retro_music_pro">Cumpărați RetroMusic Pro</string>
     <string name="ringtone_summary">Aplicația are nevoie de permisiunea de a accesa setările dispozitivului pentru a seta muzica ca ton de apel</string>
     <string name="ringtone_title">Ton sonerie (opțional)</string>
@@ -533,7 +533,7 @@
     <string name="translate_community">Ajută-ne să traducem aplicația</string>
     <string name="try_retro_music_premium">Încearcă Retro Muzică Premium</string>
     <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Împărtășește design-ul tău cu Retro Music</string>
+    <string name="twitter_page_summary">Împărtășește design-ul tău cu YiClap</string>
     <string name="unlabeled">Neetichetat</string>
     <string name="unplayable_file">Nu s-a putut reda aceast\u0103 melodie.</string>
     <string name="up_next">Urmează</string>

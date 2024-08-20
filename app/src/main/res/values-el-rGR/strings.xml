@@ -158,7 +158,7 @@
     <string name="depth">Βάθος</string>
     <string name="description">Περιγραφή</string>
     <string name="device_info">Πληροφορίες συσκευής</string>
-    <string name="dialog_message_set_ringtone">Επιτρέψτε στο Retro Music να τροποποιεί τις ρυθμίσεις ήχου</string>
+    <string name="dialog_message_set_ringtone">Επιτρέψτε στο YiClap να τροποποιεί τις ρυθμίσεις ήχου</string>
     <string name="dialog_title_set_ringtone">Ορισμός ήχου κλήσης</string>
     <string name="disc_hint">Αριθμός Δίσκου</string>
     <string name="do_you_want_to_clear_the_blacklist">Εκκαθάριση της blacklist?</string>
@@ -221,7 +221,7 @@
     <string name="import_playlist">Εισαγωγή λίστας αναπαραγωγής</string>
     <string name="import_playlist_message">Εισάγει όλες τις λίστες αναπαραγωγής του Android Media Store με τραγούδια, αν οι λίστες αναπαραγωγής υπάρχουν ήδη, τα τραγούδια θα συγχωνευτούν.</string>
     <string name="inserted_x_songs_into_playlist_x">Προστέθηκαν %1$d κομμάτια στη λίστα αναπαραγωγής %2$s.</string>
-    <string name="instagram_page_summary">Μοιραστείτε το setup του Retro Music σας για προβολή στο Instagram</string>
+    <string name="instagram_page_summary">Μοιραστείτε το setup του YiClap σας για προβολή στο Instagram</string>
     <string name="keyboard">Πληκτρολόγιο</string>
     <string name="label_bit_rate">Ρυθμός μετάδοσης bit</string>
     <string name="label_file_format">Μορφή</string>
@@ -303,7 +303,7 @@
     <string name="personalize_settings_summary">Προσαρμόστε τα στοιχεία ελέγχου του παίζετε τώρα και του περιβάλλοντως χρήστη</string>
     <string name="pick_from_local_storage">Επιλογή από Χώρο Αποθήκευσης</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Ακολουθήστε τη σελίδα Pinterest για έμπνευση σχεδιασμού του Retro Music</string>
+    <string name="pinterest_page_summary">Ακολουθήστε τη σελίδα Pinterest για έμπνευση σχεδιασμού του YiClap</string>
     <string name="plain">Απλό</string>
     <string name="playList_already_exits">Η λίστα αναπαραγωγής υπάρχει ήδη</string>
     <string name="playback_pitch">Τόνος</string>
@@ -448,8 +448,8 @@
     <string name="restored_previous_purchase_please_restart">Επαναφορά προηγούμενης αγοράς. Επανεκκινήστε την εφαρμογή για να χρησιμοποιήσετε όλες τις δυνατότητες.</string>
     <string name="restored_previous_purchases">Επαναφορά προηγούμενων αγορών επιτυχής.</string>
     <string name="restoring_purchase">Επαναφορά αγοράς…</string>
-    <string name="retro_music_player">Retro Music Player</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">YiClap Player</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">Η εφαρμογή χρειάζεται άδεια για να αποκτήσει πρόσβαση στις ρυθμίσεις της συσκευής σας για να ορίσει τη μουσική ως ήχος κλήσης</string>
     <string name="ringtone_title">Ήχος Κλήσης (Προαιρετικό)</string>
     <string name="saf_delete_failed">Η διαγραφή αρχείου απέτυχε: %s</string>
@@ -529,9 +529,9 @@
     <string name="track_list">Αριθμός Κομματιού</string>
     <string name="translate">Μετάφραση</string>
     <string name="translate_community">Βοηθήστε μας να μεταφράσουμε την εφαρμογή στη γλώσσα σας</string>
-    <string name="try_retro_music_premium">Δοκιμάστε το Retro Music Premium</string>
+    <string name="try_retro_music_premium">Δοκιμάστε το YiClap Premium</string>
     <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Μοιραστείτε το σχέδιό σας με το Retro Music</string>
+    <string name="twitter_page_summary">Μοιραστείτε το σχέδιό σας με το YiClap</string>
     <string name="unlabeled">Χωρίς ετικέτα</string>
     <string name="unplayable_file">\u0394\u03b5\u03bd \u03bc\u03c0\u03bf\u03c1\u03ad\u03c3\u03b1\u03bc\u03b5 \u03bd\u03b1 \u03c0\u03b1\u03af\u03be\u03bf\u03c5\u03bc\u03b5 \u03b1\u03c5\u03c4\u03cc \u03c4\u03bf \u03ba\u03bf\u03bc\u03bc\u03ac\u03c4\u03b9.</string>
     <string name="up_next">Αμέσως επόμενο</string>

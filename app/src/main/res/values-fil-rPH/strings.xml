@@ -158,7 +158,7 @@
     <string name="depth">Malalim</string>
     <string name="description">Paglalarawan</string>
     <string name="device_info">Impormasyon ng device</string>
-    <string name="dialog_message_set_ringtone">Payagan ang Retro Music na baguhin ang mga setting ng audio</string>
+    <string name="dialog_message_set_ringtone">Payagan ang YiClap na baguhin ang mga setting ng audio</string>
     <string name="dialog_title_set_ringtone">Itakda ang ringtone</string>
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">Gusto mo bang burahin ang blacklist?</string>
@@ -221,7 +221,7 @@
     <string name="import_playlist">I-import ang playlist</string>
     <string name="import_playlist_message">Ini-import nito ang lahat ng playlist na nakalista sa Android Media Store na may mga kanta, kung mayroon nang mga playlist, pagsasamahin ang mga kanta.</string>
     <string name="inserted_x_songs_into_playlist_x">Nagpasok ng %1$d na kanta sa playlist na %2$s.</string>
-    <string name="instagram_page_summary">Ibahagi ang iyong setup ng Retro Music para ipakita sa Instagram</string>
+    <string name="instagram_page_summary">Ibahagi ang iyong setup ng YiClap para ipakita sa Instagram</string>
     <string name="keyboard">Keyboard</string>
     <string name="label_bit_rate">Bitrate</string>
     <string name="label_file_format">Format</string>
@@ -303,7 +303,7 @@
     <string name="personalize_settings_summary">I-customize ang iyong nagpe-play ngayon at ang UI kontrol</string>
     <string name="pick_from_local_storage">Kumuha mula sa local storage</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Sundin ang pahina ng Pinterest para sa inspirasyon sa disenyo ng Retro Music</string>
+    <string name="pinterest_page_summary">Sundin ang pahina ng Pinterest para sa inspirasyon sa disenyo ng YiClap</string>
     <string name="plain">Payak</string>
     <string name="playList_already_exits">Playlist already exists</string>
     <string name="playback_pitch">Pitch</string>
@@ -448,8 +448,8 @@
     <string name="restored_previous_purchase_please_restart">Ibinalik ang nakaraang pagbili. Mangyaring i-restart ang app upang magamit ang lahat ng mga tampok.</string>
     <string name="restored_previous_purchases">Ibinalik ang mga nakaraang pagbili.</string>
     <string name="restoring_purchase">Ibinabalik ang pagbili…</string>
-    <string name="retro_music_player">Retro Music Player</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">YiClap Player</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">Ang app ay nangangailangan ng permiso upang ma-access ang mga setting ng iyong device upang maitakda ang musika bilang Ringtone</string>
     <string name="ringtone_title">Ringtone (Opsyonal)</string>
     <string name="saf_delete_failed">Nabigo sa pagtanggal ng file: %s</string>
@@ -529,9 +529,9 @@
     <string name="track_list">Numero ng track</string>
     <string name="translate">Isalin</string>
     <string name="translate_community">Tulungan kaming isalin ang app sa iyong wika</string>
-    <string name="try_retro_music_premium">Subukan ang Retro Music Premium</string>
+    <string name="try_retro_music_premium">Subukan ang YiClap Premium</string>
     <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Ibahagi ang iyong disenyo sa Retro Music</string>
+    <string name="twitter_page_summary">Ibahagi ang iyong disenyo sa YiClap</string>
     <string name="unlabeled">Walang label</string>
     <string name="unplayable_file">Hindi ma-play ang kantang ito.</string>
     <string name="up_next">Susunod</string>

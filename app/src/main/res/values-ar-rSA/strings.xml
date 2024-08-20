@@ -232,7 +232,7 @@
     <string name="import_playlist">استيراد قائمة التشغيل</string>
     <string name="import_playlist_message">يستورد جميع قوائم التشغيل المدرجة في متجر وسائط الأندرويد مع الأغاني ، إذا كانت قوائم التشغيل موجودة بالفعل ، سيتم دمج الأغاني.</string>
     <string name="inserted_x_songs_into_playlist_x">إدراج %1$d الأغاني في قائمة التشغيل %2$s.</string>
-    <string name="instagram_page_summary">شارك إعداد Retro Music الخاص بك للعرض على إنستقرام</string>
+    <string name="instagram_page_summary">شارك إعداد YiClap الخاص بك للعرض على إنستقرام</string>
     <string name="keyboard">الكيبورد</string>
     <string name="label_bit_rate">معدل البت</string>
     <string name="label_file_format">الصيغة</string>

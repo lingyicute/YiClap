@@ -160,7 +160,7 @@
     <string name="depth">Depth</string>
     <string name="description">Description</string>
     <string name="device_info">Device info</string>
-    <string name="dialog_message_set_ringtone">Allow Retro Music to modify audio settings</string>
+    <string name="dialog_message_set_ringtone">Allow YiClap to modify audio settings</string>
     <string name="dialog_title_set_ringtone">Set ringtone</string>
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">Da li zelite da ispraznite listu za ignorisanje foldera?</string>
@@ -223,7 +223,7 @@
     <string name="import_playlist">Увези плејлисту</string>
     <string name="import_playlist_message">It imports all playlists listed in the Android Media Store with songs, if the playlists already exists, the songs will get merged.</string>
     <string name="inserted_x_songs_into_playlist_x">Ubaceno %1$d pesama u plejlistu %2$s.</string>
-    <string name="instagram_page_summary">Share your Retro Music setup to showcase on Instagram</string>
+    <string name="instagram_page_summary">Share your YiClap setup to showcase on Instagram</string>
     <string name="keyboard">Тастатура</string>
     <string name="label_bit_rate">Bitrate</string>
     <string name="label_file_format">Formatiraj</string>
@@ -305,7 +305,7 @@
     <string name="personalize_settings_summary">Customize your now playing and UI controls</string>
     <string name="pick_from_local_storage">Izaberi iz unutrasnjeg skladista</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Follow Pinterest page for Retro Music design inspiration</string>
+    <string name="pinterest_page_summary">Follow Pinterest page for YiClap design inspiration</string>
     <string name="plain">Jednostavan</string>
     <string name="playList_already_exits">Playlist already exists</string>
     <string name="playback_pitch">Pitch</string>
@@ -450,8 +450,8 @@
     <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
     <string name="restored_previous_purchases">Obnovljene su prethodne kupovine</string>
     <string name="restoring_purchase">Restoring purchase…</string>
-    <string name="retro_music_player">Retro Music Player</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">YiClap Player</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">The app needs permission to access your device settings in order to set music as Ringtone</string>
     <string name="ringtone_title">Ringtone (Optional)</string>
     <string name="saf_delete_failed">File delete failed: %s</string>
@@ -531,9 +531,9 @@
     <string name="track_list">Redni broj</string>
     <string name="translate">Prevod</string>
     <string name="translate_community">Help us translate the app to your language</string>
-    <string name="try_retro_music_premium">Try Retro Music Premium</string>
+    <string name="try_retro_music_premium">Try YiClap Premium</string>
     <string name="twitter_page">Твитер</string>
-    <string name="twitter_page_summary">Share your design with Retro Music</string>
+    <string name="twitter_page_summary">Share your design with YiClap</string>
     <string name="unlabeled">Unlabeled</string>
     <string name="unplayable_file">Nije moguce pustiti pesmu.</string>
     <string name="up_next">Sledece</string>

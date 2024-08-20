@@ -156,7 +156,7 @@
     <string name="depth">Depth</string>
     <string name="description">รายละเอียด</string>
     <string name="device_info">ข้อมูลเครื่อง</string>
-    <string name="dialog_message_set_ringtone">อนุญาตให้ Retro Music สามารถแก้ไขการตั้งค่าเสียงได้</string>
+    <string name="dialog_message_set_ringtone">อนุญาตให้ YiClap สามารถแก้ไขการตั้งค่าเสียงได้</string>
     <string name="dialog_title_set_ringtone">กำหนดริงโทน</string>
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">คุณต้องการล้างรายชื่อแบล็คลิสต์ใช่ไหม?</string>
@@ -219,7 +219,7 @@
     <string name="import_playlist">นำเข้าเพลย์ลิสต์</string>
     <string name="import_playlist_message">นำเข้าเพลย์ลิสต์ทั้งหมดจากในเครื่อง, หากซ้ำจะทำการรวมข้อมูลให้</string>
     <string name="inserted_x_songs_into_playlist_x">เพิ่ม %1$d เพลงเข้าสู่เพลย์ลิสต์ %2$s แล้ว</string>
-    <string name="instagram_page_summary">แชร์การตั้งค่า Retro Music บน Instagram</string>
+    <string name="instagram_page_summary">แชร์การตั้งค่า YiClap บน Instagram</string>
     <string name="keyboard">คีย์บอร์ด</string>
     <string name="label_bit_rate">บิตเรท</string>
     <string name="label_file_format">รูปแบบไฟล์</string>
@@ -301,7 +301,7 @@
     <string name="personalize_settings_summary">ตั้งค่าหน้า Now playing และปุ่มต่างๆของคุณ</string>
     <string name="pick_from_local_storage">เลือกจากในเครื่อง</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">ติดตาม Pinterest ของ Retro Music สำหรับแรงบรรดาลใจในการออกแบบ</string>
+    <string name="pinterest_page_summary">ติดตาม Pinterest ของ YiClap สำหรับแรงบรรดาลใจในการออกแบบ</string>
     <string name="plain">Plain</string>
     <string name="playList_already_exits">Playlist already exists</string>
     <string name="playback_pitch">Pitch</string>
@@ -354,7 +354,7 @@
     <string name="pref_summary_home_banner">แสดงหรือซ่อนแบนเนอร์หน้าแรก</string>
     <string name="pref_summary_ignore_media_store_artwork">เพิ่มคุณภาพของรูปปกอัลบัม แต่จะส่งผลให้โหลดรูปภาพช้าขึ้น</string>
     <string name="pref_summary_library_categories">ตั้งค่าการแสดงผลและจัดเรียงของหมวดหมู่คลังเพลง</string>
-    <string name="pref_summary_lock_screen">ใช้ Retro Music ในหน้าล็อคสกรีน</string>
+    <string name="pref_summary_lock_screen">ใช้ YiClap ในหน้าล็อคสกรีน</string>
     <string name="pref_summary_manage_audio_focus">Always play audio in background regardless of anything else being played</string>
     <string name="pref_summary_open_source_licences">รายละเอียด License สำหรับ open source software</string>
     <string name="pref_summary_pause_history">When enabled, newly played songs won\'t show in history</string>
@@ -446,8 +446,8 @@
     <string name="restored_previous_purchase_please_restart">กู้คืนการสั่งซื้อสำเร็จ (กรุณารีสตาร์ทแอปเพื่อใช้งานฟีเจอร์ทั้งหมด)</string>
     <string name="restored_previous_purchases">กู้คืนการสั่งซื้อสำเร็จ</string>
     <string name="restoring_purchase">กำลังดำเนินการกู้คืนการสั่งซื้อ</string>
-    <string name="retro_music_player">Retro Music Player</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">YiClap Player</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">ต้องการสิทธิ์เพื่อตั้งค่าริงโทน</string>
     <string name="ringtone_title">ริงโทน (Optional)</string>
     <string name="saf_delete_failed">ลบไฟล์ %s ไม่สำเร็จ</string>
@@ -527,9 +527,9 @@
     <string name="track_list">หมายเลขแทร็ก</string>
     <string name="translate">แปลภาษา</string>
     <string name="translate_community">ช่วยพวกเราแปลภาษาเป็นภาษาของคุณ</string>
-    <string name="try_retro_music_premium">ลอง Retro Music พรีเมียม</string>
+    <string name="try_retro_music_premium">ลอง YiClap พรีเมียม</string>
     <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">แชร์การออกแบบของคุณด้วย Retro Music</string>
+    <string name="twitter_page_summary">แชร์การออกแบบของคุณด้วย YiClap</string>
     <string name="unlabeled">ไม่แสดงตัวหนังสือ</string>
     <string name="unplayable_file">ไม่สามารถเล่นเพลงนี้ได้</string>
     <string name="up_next">เพลงต่อไป</string>
