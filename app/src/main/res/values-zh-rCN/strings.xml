@@ -378,7 +378,7 @@
     <string name="pref_title_appbar_mode">顶栏样式</string>
     <string name="pref_title_audio_ducking">焦点丢失时降低音量</string>
     <string name="pref_title_audio_fade">音频淡入淡出</string>
-    <string name="pref_title_auto_download_artist_images">自动下载艺术家图片</string>
+    <string name="pref_title_auto_download_artist_images">自动下载歌手图片</string>
     <string name="pref_title_blacklist">黑名单</string>
     <string name="pref_title_bluetooth_playback">蓝牙播放</string>
     <string name="pref_title_blurred_album_art">模糊专辑封面</string>
@@ -386,8 +386,8 @@
     <string name="pref_title_classic_notification">经典通知样式</string>
     <string name="pref_title_colored_app">自适应颜色</string>
     <string name="pref_title_colored_notification">着色通知</string>
-    <string name="pref_title_cross_fade">淡入淡出（测试）</string>
-    <string name="pref_title_custom_font">使用 Manrope 字体</string>
+    <string name="pref_title_cross_fade">淡入淡出</string>
+    <string name="pref_title_custom_font">采用梨的字体（星念你）</string>
     <string name="pref_title_desaturated_color">深色模式低饱和颜色</string>
     <string name="pref_title_expand_now_playing_panel">显示正在播放界面</string>
     <string name="pref_title_extra_controls">额外控件</string>
