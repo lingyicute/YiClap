@@ -147,7 +147,7 @@ val ACCENT_COLORS_SUB = arrayOf(
         parseColor("#EA80FC"), parseColor("#E040FB"), parseColor("#D500F9"),
         parseColor("#AA00FF")
 ), intArrayOf(
-        parseColor("#B388FF"), parseColor("#838AFF"), parseColor("#651FFF"),
+        parseColor("#B388FF"), parseColor("#7C4DFF"), parseColor("#651FFF"),
         parseColor("#6200EA")
 ), intArrayOf(
         parseColor("#8C9EFF"), parseColor("#536DFE"), parseColor("#3D5AFE"),
