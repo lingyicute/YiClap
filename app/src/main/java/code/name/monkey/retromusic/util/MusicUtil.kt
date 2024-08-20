@@ -316,7 +316,7 @@ object MusicUtil : KoinComponent {
 
     fun getDateModifiedString(date: Long): String {
         val calendar: Calendar = Calendar.getInstance()
-        val pattern = "dd/MM/yyyy hh:mm:ss"
+        val pattern = "yyyy/MM/dd hh:mm:ss"
         calendar.timeInMillis = date
         val formatter = SimpleDateFormat(pattern, Locale.ENGLISH)
         return formatter.format(calendar.time)
