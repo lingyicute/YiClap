@@ -24,7 +24,7 @@ jobs:
       - name: Tree
         run: tree -ash \${{ github.workspace }}
       - name: Upload APK
-      uses: actions/upload-artifact@v4
-      with:
-        name: apk
-        path: ${{ github.workspace }}//app/build/outputs/
+        uses: actions/upload-artifact@v4
+        with:
+          name: apk
+          path: ${{ github.workspace }}//app/build/outputs/
