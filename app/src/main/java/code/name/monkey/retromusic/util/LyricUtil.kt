@@ -51,7 +51,7 @@ object LyricUtil {
         }
     }
 
-    //So in Retro, Lrc file can be same folder as Music File or in RetroMusic Folder
+    //So in YiClap, Lrc file can be same folder as Music File or in RetroMusic Folder
     // In this case we pass location of the file and Contents to write to file
     fun writeLrc(song: Song, lrcContext: String) {
         var writer: FileWriter? = null

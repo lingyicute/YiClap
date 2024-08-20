@@ -44,19 +44,6 @@
         app:listItemTitle="@string/git_hub" />
 
     <code.name.monkey.retromusic.views.ListItemView
-        android:id="@+id/appTranslation"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constrainedWidth="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appGithub"
-        app:listItemIcon="@drawable/ic_flag"
-        app:listItemSummary="@string/translate_community"
-        app:listItemTitle="@string/translate" />
-
-    <code.name.monkey.retromusic.views.ListItemView
         android:id="@+id/bugReportLink"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -64,7 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appTranslation"
+        app:layout_constraintTop_toBottomOf="@id/appGithub"
         app:listItemIcon="@drawable/ic_bug_report"
         app:listItemSummary="@string/bug_report_summary"
         app:listItemTitle="@string/report_bug" />

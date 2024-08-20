@@ -68,7 +68,7 @@
         <item quantity="other">专辑</item>
     </plurals>
     <string name="always">始终</string>
-    <string name="app_share">嘿，快来瞧瞧这个酷炫的音乐播放器：https://play.google.com/store/apps/details?id=%s</string>
+    <string name="app_share">宝，给你推荐一个音乐播放器：https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">随机播放</string>
     <string name="app_shortcut_top_tracks_short">热门曲目</string>
     <string name="app_widget_big_name">完整图像</string>
@@ -105,7 +105,7 @@
     <string name="bug_report_no_title">请输入问题标题</string>
     <string name="bug_report_no_username">请您输入有效的 GitHub 用户名</string>
     <string name="bug_report_success">错误报告成功</string>
-    <string name="bug_report_summary">发生未知错误。很抱歉让您遇到此错误，如一直崩溃，请尝试“清除应用数据”或发送邮件</string>
+    <string name="bug_report_summary">如果遇到崩溃，请先尝试“清除应用数据”哦。</string>
     <string name="bug_report_use_account">使用 GitHub 帐户发送</string>
     <string name="buy_now">立即购买</string>
     <string name="cancel_current_timer">取消</string>
@@ -115,8 +115,8 @@
     <string name="card_style">卡片</string>
     <string name="carousal_effect_on_now_playing_screen">在播放页使用轮播效果</string>
     <string name="cascading">层叠</string>
-    <string name="changelog">变更日志</string>
-    <string name="changelog_summary">看看新变化</string>
+    <string name="changelog">更新日志</string>
+    <string name="changelog_summary">看看有什么新变化～</string>
     <string name="choose_image">选择图片</string>
     <string name="choose_restore_title">选择要还原的内容</string>
     <string name="circle">唱盘</string>
@@ -193,7 +193,7 @@
     <string name="general_settings_title">界面与外观</string>
     <string name="genre">流派</string>
     <string name="genres">流派</string>
-    <string name="git_hub_summary">在 GitHub 上查看源代码</string>
+    <string name="git_hub_summary">YiClap 免费且开源，在 GitHub 上查看源代码吧！</string>
     <string name="gradient">渐变</string>
     <string name="grant_access">允许访问</string>
     <string name="grid_size_1">1</string>
@@ -205,7 +205,7 @@
     <string name="grid_size_7">7</string>
     <string name="grid_size_8">8</string>
     <string name="grid_style_label">网格样式</string>
-    <string name="help_summary">需要更多帮助？</string>
+    <string name="help_summary">如果没找到想要的答案，就去问问你的梨～</string>
     <string name="hinge">旋转</string>
     <string name="history">历史记录</string>
     <string name="history_cleared">已清除历史记录</string>
@@ -242,7 +242,7 @@
     <string name="loading_products">正在加载产品...</string>
     <string name="login">登录</string>
     <string name="lyrics">歌词</string>
-    <string name="made_with_love">用❤️创造，印度出品</string>
+    <string name="made_with_love">Made with heart.❤️</string>
     <string name="material">质感</string>
     <string name="md_error_label">错误</string>
     <string name="md_storage_perm_error">权限错误</string>
@@ -293,7 +293,7 @@
     <string name="paste_timeframe_lyrics_here">在此粘贴时段歌词</string>
     <string name="peek">预览</string>
     <string name="permission_bluetooth_denied">附近设备权限被拒绝。</string>
-    <string name="permission_external_storage_denied">访问外部存储权限被拒绝。</string>
+    <string name="permission_external_storage_denied">外部存储权限被拒绝。</string>
     <string name="permission_summary">YiClap 需要存储访问权限才可以查找和播放音乐呀～</string>
     <string name="permission_title">存储空间访问权限</string>
     <string name="permissions_denied">权限被拒绝。</string>
@@ -327,9 +327,9 @@
     <string name="pref_header_library">媒体库</string>
     <string name="pref_header_lockscreen">锁屏</string>
     <string name="pref_header_playlists">播放列表</string>
-    <string name="pref_keep_pause_on_zero_volume_summary">在音量为0时暂停播放，并在提高音量后自动播放。注意：当您提高音量后，它甚至会在您使用其他应用时开始播放</string>
+    <string name="pref_keep_pause_on_zero_volume_summary">在音量为0时自动暂停播放，并在提高音量后自动继续播放。注意：功能虽好，使用不当可是会吓到你的哦！</string>
     <string name="pref_keep_pause_on_zero_volume_title">静音暂停</string>
-    <string name="pref_keep_screen_on_summary">请注意，启用此功能可能会降低电池续航时间</string>
+    <string name="pref_keep_screen_on_summary">注意：屏幕常亮可能会很耗电</string>
     <string name="pref_keep_screen_on_title">保持屏幕常亮</string>
     <string name="pref_language_name">选择语言</string>
     <string name="pref_snow_fall_title">降雪效果</string>
@@ -418,7 +418,7 @@
     <string name="pref_title_toggle_toggle_shuffle">随机播放</string>
     <string name="pref_title_toggle_volume">音量控件</string>
     <string name="pref_title_wallpaper_accent">壁纸主题色</string>
-    <string name="pref_title_whitelist">白名单音乐</string>
+    <string name="pref_title_whitelist">白名单模式</string>
     <string name="pro">高级版</string>
     <string name="pro_summary">黑色主题、播放页主题、轮播效果以及更多功能…</string>
     <string name="profile">个人信息</string>

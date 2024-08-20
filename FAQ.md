@@ -61,7 +61,7 @@ Settings -> Look and feel -> Select your theme.
 ___
 
 ## **Q: Equalizer is very laggy and unstable or I am getting a "No equalizer found" error. Why?**
-- The Retro music in-built equalizer was removed updates ago so the only equalizer you will have by your OEM or Android native equalizer which isn't made by us and have no control over them. So you can report those issues to your OEM so that they can provide a fix in the next updates.
+- The YiClap music in-built equalizer was removed updates ago so the only equalizer you will have by your OEM or Android native equalizer which isn't made by us and have no control over them. So you can report those issues to your OEM so that they can provide a fix in the next updates.
 
 - If you are seeing "No Equalizer Found" in your device, this means your device doesn't have a stock equalizer "MusicFx" Equalizer. You can try using this one. It's made by AEX ROM developers.
 
