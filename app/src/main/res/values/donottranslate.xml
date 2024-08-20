@@ -19,7 +19,7 @@
     <string name="app_shortcut_shuffle_all_long" translatable="false">@string/action_shuffle_all</string>
     <string name="app_shortcut_top_tracks_long" translatable="false">@string/my_top_tracks</string>
 
-    <string name="empty_text_emoji" translatable="false">&#128561;</string>
+    <string name="empty_text_emoji" translatable="false">&#129762;</string>
 
     <!-- Material You -->
     <string name="pref_title_md3">Material You</string>
