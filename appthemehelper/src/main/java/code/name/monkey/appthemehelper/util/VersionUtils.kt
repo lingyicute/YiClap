@@ -3,10 +3,6 @@ package code.name.monkey.appthemehelper.util
 import android.os.Build
 import androidx.annotation.ChecksSdkIntAtLeast
 
-/**
- * @author Hemanth S (h4h13).
- */
-
 object VersionUtils {
     /**
      * @return true if device is running API >= 23
