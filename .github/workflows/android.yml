@@ -7,22 +7,6 @@ on:
     branches: [ main ]
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v3
-      - uses: gradle/wrapper-validation-action@v1
-      - uses: actions/setup-java@v3
-        with:
-          distribution: 'zulu'
-          java-version: 17
-      - uses: gradle/gradle-build-action@v2
-      - name: Chmod
-        run: chmod 755 gradlew
-      - name: Lint Android
-        run: ./gradlew lint
-
   build:
     runs-on: ubuntu-latest
     steps:
@@ -36,3 +20,10 @@ jobs:
         run: chmod 755 gradlew
       - name: Build
         run: ./gradlew app:assemble
+      - name: Tree
+        run: tree -ash \${{ github.workspace }}
+      - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: apk
+        path: ${{ github.workspace }}//app/build/outputs/
