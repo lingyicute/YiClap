@@ -193,7 +193,7 @@
     <string name="general_settings_title">界面与外观</string>
     <string name="genre">流派</string>
     <string name="genres">流派</string>
-    <string name="git_hub_summary">在 GitHub 上克隆项目</string>
+    <string name="git_hub_summary">在 GitHub 上查看源代码</string>
     <string name="gradient">渐变</string>
     <string name="grant_access">允许访问</string>
     <string name="grid_size_1">1</string>
@@ -357,7 +357,7 @@
     <string name="pref_summary_library_categories">配置媒体库的可见性和顺序</string>
     <string name="pref_summary_lock_screen">使用 YiClap 的自定义锁屏</string>
     <string name="pref_summary_manage_audio_focus">其他内容播放时，在后台继续播放音频</string>
-    <string name="pref_summary_open_source_licences">开源许可详情</string>
+    <string name="pref_summary_open_source_licences">感谢这些对 YiClap 的开发有所帮助的开源软件及其开发者～</string>
     <string name="pref_summary_pause_history">启用后，新播放的歌曲不会显示在历史记录中</string>
     <string name="pref_summary_remember_tab">启动时打开上次使用的页面</string>
     <string name="pref_summary_show_lyrics">在专辑封面上显示同步歌词</string>
@@ -404,7 +404,7 @@
     <string name="pref_title_lyrics_type">歌词类型</string>
     <string name="pref_title_manage_audio_focus">始终播放</string>
     <string name="pref_title_now_playing_screen_appearance">正在播放主题</string>
-    <string name="pref_title_open_source_licences">开源许可</string>
+    <string name="pref_title_open_source_licences">鸣谢</string>
     <string name="pref_title_pause_history">暂停历史记录</string>
     <string name="pref_title_remember_tab">记住最后打开页面</string>
     <string name="pref_title_show_lyrics">显示歌词</string>
