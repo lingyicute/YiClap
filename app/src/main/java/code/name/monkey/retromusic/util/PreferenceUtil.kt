@@ -693,7 +693,7 @@ object PreferenceUtil {
         get() = if (sharedPreferences.getString(APPBAR_MODE, "1") == "0") {
             TopAppBarLayout.AppBarMode.COLLAPSING
         } else {
-            TopAppBarLayout.AppBarMode.SIMPLE
+            TopAppBarLayout.AppBarMode.COLLAPSING
         }
 
     val wallpaperAccent

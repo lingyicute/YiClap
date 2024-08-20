@@ -59,7 +59,7 @@
 
     <string-array name="pref_appbar_mode_values">
         <item>0</item>
-        <item>1</item>
+        <item>0</item>
     </string-array>
 
     <string-array name="pref_general_theme_list_titles">
