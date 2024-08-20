@@ -2,8 +2,8 @@
 <resources>
     <string name="about_album_label">关于 %s</string>
     <string name="about_settings_summary">团队，社交链接</string>
-    <string name="accent_color">强调色</string>
-    <string name="accent_color_desc">主题强调色，默认为紫色</string>
+    <string name="accent_color">主题色</string>
+    <string name="accent_color_desc">主题强调色，关闭莫奈取色后才可以设置哦～</string>
     <string name="action_about">关于</string>
     <string name="action_add_to_blacklist">加入黑名单</string>
     <string name="action_add_to_favorites">加入收藏夹</string>
