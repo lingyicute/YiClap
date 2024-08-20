@@ -74,6 +74,7 @@ class PermissionActivity : AbsMusicServiceActivity() {
         binding.finish.accentBackgroundColor()
         binding.finish.setOnClickListener {
             if (hasPermissions()) {
+                DynamicColors.applyToActivitiesIfAvailable(App.getContext())
                 startActivity(
                     Intent(this, MainActivity::class.java).addFlags(
                         Intent.FLAG_ACTIVITY_NEW_TASK or

@@ -105,7 +105,6 @@ class ThemeSettingsFragment : AbsSettingsFragment() {
         }
 
         val materialYou: ATESwitchPreference? = findPreference(MATERIAL_YOU)
-        materialYou?.isChecked = PreferenceUtil.isMaterialYouEnabled
         materialYou?.setOnPreferenceChangeListener { _, newValue ->
             if (newValue as Boolean) {
                 DynamicColors.applyToActivitiesIfAvailable(App.getContext())
