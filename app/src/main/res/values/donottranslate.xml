@@ -22,7 +22,7 @@
     <string name="empty_text_emoji" translatable="false">&#129762;</string>
 
     <!-- Material You -->
-    <string name="pref_title_md3">Material You</string>
+    <string name="pref_title_md3">莫奈取色</string>
 
     <string name="sort_order_album_artist">@string/album_artist</string>
     <string name="app_widget_circle_name">@string/circle</string>
