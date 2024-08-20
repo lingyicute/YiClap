@@ -27,11 +27,23 @@ import androidx.core.app.ActivityCompat
 import androidx.core.net.toUri
 import androidx.core.text.parseAsHtml
 import androidx.core.view.isVisible
+import androidx.core.content.edit
+import androidx.preference.Preference
+import androidx.preference.TwoStatePreference
 import code.name.monkey.appthemehelper.util.VersionUtils
 import code.name.monkey.retromusic.R
 import code.name.monkey.retromusic.activities.base.AbsMusicServiceActivity
 import code.name.monkey.retromusic.databinding.ActivityPermissionBinding
 import code.name.monkey.retromusic.extensions.*
+import com.google.android.material.color.DynamicColors
+import code.name.monkey.retromusic.*
+import code.name.monkey.appthemehelper.ACCENT_COLORS
+import code.name.monkey.appthemehelper.ACCENT_COLORS_SUB
+import code.name.monkey.appthemehelper.ThemeStore
+import code.name.monkey.appthemehelper.common.prefs.supportv7.ATEColorPreference
+import code.name.monkey.appthemehelper.common.prefs.supportv7.ATESwitchPreference
+import code.name.monkey.appthemehelper.util.ColorUtil
+import code.name.monkey.retromusic.util.PreferenceUtil
 
 class PermissionActivity : AbsMusicServiceActivity() {
     private lateinit var binding: ActivityPermissionBinding
