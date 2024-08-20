@@ -162,7 +162,7 @@
     <string name="depth">Hloubka</string>
     <string name="description">Popis</string>
     <string name="device_info">Informace o zařízení</string>
-    <string name="dialog_message_set_ringtone">Povolit aplikaci Retro Music upravovat nastavení zvuku</string>
+    <string name="dialog_message_set_ringtone">Povolit aplikaci YiClap upravovat nastavení zvuku</string>
     <string name="dialog_title_set_ringtone">Nastavit vyzvánění</string>
     <string name="disc_hint">Disc Number</string>
     <string name="do_you_want_to_clear_the_blacklist">Chcete vyčistit černou listinu?</string>
@@ -225,7 +225,7 @@
     <string name="import_playlist">Importovat seznam skladeb</string>
     <string name="import_playlist_message">Importuje všechny seznamy skladeb uvedené v Android Media store, pokud seznam již existuje, seznamy se sloučí.</string>
     <string name="inserted_x_songs_into_playlist_x">Do playlistu %2$s byly vloženy %1$d skladby.</string>
-    <string name="instagram_page_summary">Sdílejte své nastavení Retro Music na Instagramu</string>
+    <string name="instagram_page_summary">Sdílejte své nastavení YiClap na Instagramu</string>
     <string name="keyboard">Klávesnice</string>
     <string name="label_bit_rate">Datový tok</string>
     <string name="label_file_format">Formát</string>
@@ -307,7 +307,7 @@
     <string name="personalize_settings_summary">Přizpůsobte si stránku přehrávání a UI ovládání</string>
     <string name="pick_from_local_storage">Vyberte z místního úložiště</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Sledujte stránku Pinterest pro inspiraci designu Retro Music</string>
+    <string name="pinterest_page_summary">Sledujte stránku Pinterest pro inspiraci designu YiClap</string>
     <string name="plain">Klasické</string>
     <string name="playList_already_exits">Playlist already exists</string>
     <string name="playback_pitch">Pitch</string>
@@ -360,7 +360,7 @@
     <string name="pref_summary_home_banner">Show or hide the home banner</string>
     <string name="pref_summary_ignore_media_store_artwork">Může zvýšit kvalitu obalu alba, ale způsobí pomalejší načítání snímků. Tuto možnost povolte pouze v případě potíží s uměleckými díly s nízkým rozlišením.</string>
     <string name="pref_summary_library_categories">Configure visibility and order of library categories.</string>
-    <string name="pref_summary_lock_screen">Use Retro Music\'s custom lockscreen controls</string>
+    <string name="pref_summary_lock_screen">Use YiClap\'s custom lockscreen controls</string>
     <string name="pref_summary_manage_audio_focus">Always play audio in background regardless of anything else being played</string>
     <string name="pref_summary_open_source_licences">License details for open source software</string>
     <string name="pref_summary_pause_history">When enabled, newly played songs won\'t show in history</string>
@@ -452,8 +452,8 @@
     <string name="restored_previous_purchase_please_restart">Předchozí nákup byl obnoven. Restartujte aplikaci pro využití všech funkcí.</string>
     <string name="restored_previous_purchases">Předchozí nákupy byly obnoveny.</string>
     <string name="restoring_purchase">Obnovuji nákup…</string>
-    <string name="retro_music_player">Retro Music Přehrávač</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">YiClap Přehrávač</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">Aplikace potřebuje přístup k nastavení zařízení pro nastavení hudby jako vyzvánění</string>
     <string name="ringtone_title">Ringtone (Optional)</string>
     <string name="saf_delete_failed">Odstranění souboru se nezdařilo: %s</string>
@@ -533,9 +533,9 @@
     <string name="track_list">Číslo skladby</string>
     <string name="translate">Překlad</string>
     <string name="translate_community">Pomožte nám přeložit tuto aplikaci do vašeho jazyka</string>
-    <string name="try_retro_music_premium">Vyzkoušejte Retro Music Premium</string>
+    <string name="try_retro_music_premium">Vyzkoušejte YiClap Premium</string>
     <string name="twitter_page">Twitter</string>
-    <string name="twitter_page_summary">Sdílejte svůj design s Retro Music</string>
+    <string name="twitter_page_summary">Sdílejte svůj design s YiClap</string>
     <string name="unlabeled">Bez štítku</string>
     <string name="unplayable_file">Tuto p\u00edse\u0148 se nepoda\u0159ilo p\u0159ehr\u00e1t.</string>
     <string name="up_next">Další</string>

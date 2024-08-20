@@ -156,7 +156,7 @@
     <string name="depth">Kedalaman</string>
     <string name="description">Keterangan</string>
     <string name="device_info">Info perangkat</string>
-    <string name="dialog_message_set_ringtone">Izinkan Retro Music untuk mengubah pengaturan audio</string>
+    <string name="dialog_message_set_ringtone">Izinkan YiClap untuk mengubah pengaturan audio</string>
     <string name="dialog_title_set_ringtone">Setel nada dering</string>
     <string name="disc_hint">Nomor disk</string>
     <string name="do_you_want_to_clear_the_blacklist">Apakah Anda ingin menghapus daftar hitam?</string>
@@ -219,7 +219,7 @@
     <string name="import_playlist">Impor daftar putar</string>
     <string name="import_playlist_message">Ini mengimpor semua daftar putar yang terdaftar di Media Penyimpanan Android dengan lagu, jika daftar putar sudah ada, lagu akan digabungkan.</string>
     <string name="inserted_x_songs_into_playlist_x">Memasukkan %1$d lagu ke dalam daftar putar %2$s.</string>
-    <string name="instagram_page_summary">Bagikan pengaturan Retro Music Anda untuk dipamerkan di Instagram</string>
+    <string name="instagram_page_summary">Bagikan pengaturan YiClap Anda untuk dipamerkan di Instagram</string>
     <string name="keyboard">Papan ketik</string>
     <string name="label_bit_rate">Bitrate</string>
     <string name="label_file_format">Format</string>
@@ -301,7 +301,7 @@
     <string name="personalize_settings_summary">Sesuaikan pemutar dan antarmuka Anda</string>
     <string name="pick_from_local_storage">Pilih dari penyimpanan lokal</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Ikuti halaman Pinterest untuk inspirasi desain Retro Music</string>
+    <string name="pinterest_page_summary">Ikuti halaman Pinterest untuk inspirasi desain YiClap</string>
     <string name="plain">Polos</string>
     <string name="playList_already_exits">Daftar putar sudah ada</string>
     <string name="playback_pitch">Nada</string>
@@ -446,8 +446,8 @@
     <string name="restored_previous_purchase_please_restart">Memulihkan pembelian sebelumnya. Silakan mulai ulang aplikasi untuk menggunakan semua fitur.</string>
     <string name="restored_previous_purchases">Memulihkan pembelian sebelumnya.</string>
     <string name="restoring_purchase">Memulihkan pembelian…</string>
-    <string name="retro_music_player">Retro Music Player</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">YiClap Player</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">Aplikasi memerlukan izin untuk mengakses setelan perangkat Anda untuk mengatur musik sebagai Nada Dering</string>
     <string name="ringtone_title">Nada Dering (Opsional)</string>
     <string name="saf_delete_failed">Penghapusan file gagal: %s</string>

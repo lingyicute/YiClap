@@ -157,7 +157,7 @@
     <string name="depth">深さ</string>
     <string name="description">説明</string>
     <string name="device_info">端末の情報</string>
-    <string name="dialog_message_set_ringtone">Retro Musicにオーディオ設定の変更を許可する</string>
+    <string name="dialog_message_set_ringtone">YiClapにオーディオ設定の変更を許可する</string>
     <string name="dialog_title_set_ringtone">着信音に設定</string>
     <string name="disc_hint">ディスクナンバー</string>
     <string name="do_you_want_to_clear_the_blacklist">ブラックリストを削除しますか?</string>
@@ -220,7 +220,7 @@
     <string name="import_playlist">プレイリストをインポート</string>
     <string name="import_playlist_message">Android Media Storeにリストされているすべてのプレイリストを読み込み、プレイリストがすでに存在する場合は、曲がマージされます。</string>
     <string name="inserted_x_songs_into_playlist_x">プレイリスト %2$s に %1$d 曲を追加しました</string>
-    <string name="instagram_page_summary">あなたのRetro Music設定を共有してInstagramにショーケースしましょう</string>
+    <string name="instagram_page_summary">あなたのYiClap設定を共有してInstagramにショーケースしましょう</string>
     <string name="keyboard">キーボードを表示</string>
     <string name="label_bit_rate">ビットレート</string>
     <string name="label_file_format">フォーマット</string>
@@ -302,7 +302,7 @@
     <string name="personalize_settings_summary">再生中のUI画面をカスタマイズ</string>
     <string name="pick_from_local_storage">ローカルストレージから選択</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">PintrestでRetro Musicのデザインのインスピレーションを感じましょう！</string>
+    <string name="pinterest_page_summary">PintrestでYiClapのデザインのインスピレーションを感じましょう！</string>
     <string name="plain">プレーン</string>
     <string name="playList_already_exits">プレイリストは既に存在します</string>
     <string name="playback_pitch">音程</string>
@@ -328,7 +328,7 @@
     <string name="pref_header_library">ライブラリ</string>
     <string name="pref_header_lockscreen">ロック画面</string>
     <string name="pref_header_playlists">プレイリスト</string>
-    <string name="pref_keep_pause_on_zero_volume_summary">音量がゼロになると自動的に音楽が一時停止し、再び音量を上げると音楽が再生されます。※あなたがアプリ外で音量を上げると、Retro Musicも再生を開始します。</string>
+    <string name="pref_keep_pause_on_zero_volume_summary">音量がゼロになると自動的に音楽が一時停止し、再び音量を上げると音楽が再生されます。※あなたがアプリ外で音量を上げると、YiClapも再生を開始します。</string>
     <string name="pref_keep_pause_on_zero_volume_title">音量をゼロで一時停止</string>
     <string name="pref_keep_screen_on_summary">この機能をオンにすると、バッテリー寿命に影響する可能性があります</string>
     <string name="pref_keep_screen_on_title">画面をオンのままにする</string>
@@ -355,7 +355,7 @@
     <string name="pref_summary_home_banner">ホーム画面を切り替える</string>
     <string name="pref_summary_ignore_media_store_artwork">アルバムジャケットのクオリティを上げますが、読み込みに時間がかかる場合があります。低解像度の画像で問題がある場合に有効です。</string>
     <string name="pref_summary_library_categories">ライブラリに表示される項目と、順番を変更する</string>
-    <string name="pref_summary_lock_screen">Retro Musicのカスタムされたロック画面を使用する</string>
+    <string name="pref_summary_lock_screen">YiClapのカスタムされたロック画面を使用する</string>
     <string name="pref_summary_manage_audio_focus">ほかのアプリでの再生に関わらず再生し続けます</string>
     <string name="pref_summary_open_source_licences">オープンソースライセンスの詳細</string>
     <string name="pref_summary_pause_history">有効にすると、新たに再生された曲は履歴に表示されません</string>
@@ -447,8 +447,8 @@
     <string name="restored_previous_purchase_please_restart">購入を復元しました。アプリを再起動してフルバージョンをご堪能ください！</string>
     <string name="restored_previous_purchases">購入を復元しました</string>
     <string name="restoring_purchase">購入を復元しています...</string>
-    <string name="retro_music_player">Retro Music Player</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">YiClap Player</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">音楽を着信音に設定するには、端末の設定にアクセスする権限が必要です</string>
     <string name="ringtone_title">着信音（オプション）</string>
     <string name="saf_delete_failed">ファイルの削除に失敗しました。%s</string>
@@ -528,7 +528,7 @@
     <string name="track_list">トラック番号</string>
     <string name="translate">翻訳</string>
     <string name="translate_community">翻訳を手伝ってください！</string>
-    <string name="try_retro_music_premium">Retro Music Premium を試す</string>
+    <string name="try_retro_music_premium">YiClap Premium を試す</string>
     <string name="twitter_page">ツイッター</string>
     <string name="twitter_page_summary">あなたのデザインを皆に共有しましょう</string>
     <string name="unlabeled">ラベルを表示しない</string>

@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <!--
-    Don't report bugs that are already in the issue list of Retro Music: https://github.com/h4h13/RetroMusicPlayer/issues
+    Don't report bugs that are already in the issue list of YiClap: https://github.com/lingyicute/YiClap/issues
 
     [ ] Yes
 -->

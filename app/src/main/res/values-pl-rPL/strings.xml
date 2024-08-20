@@ -162,7 +162,7 @@
     <string name="depth">Głębia</string>
     <string name="description">Opis</string>
     <string name="device_info">Informacje o urządzeniu</string>
-    <string name="dialog_message_set_ringtone">Pozwól Retro Music na modyfikację ustawień dźwięku</string>
+    <string name="dialog_message_set_ringtone">Pozwól YiClap na modyfikację ustawień dźwięku</string>
     <string name="dialog_title_set_ringtone">Ustaw jako dzwonek</string>
     <string name="disc_hint">Numer płyty</string>
     <string name="do_you_want_to_clear_the_blacklist">Czy chcesz wyczyścić listę ignorowanych?</string>
@@ -225,7 +225,7 @@
     <string name="import_playlist">Importuj playlistę</string>
     <string name="import_playlist_message">Importuje wszystkie playlisty wymienione w Android Media Store z utworami; jeśli playlisty już istnieją, utwory zostaną scalone.</string>
     <string name="inserted_x_songs_into_playlist_x">Dodano %1$d utworów do playlisty %2$s.</string>
-    <string name="instagram_page_summary">Udostępnij swój desigm aplikacji Retro Music na Instagramie</string>
+    <string name="instagram_page_summary">Udostępnij swój desigm aplikacji YiClap na Instagramie</string>
     <string name="keyboard">Klawiatura</string>
     <string name="label_bit_rate">Jakość</string>
     <string name="label_file_format">Typ</string>
@@ -307,7 +307,7 @@
     <string name="personalize_settings_summary">Dostosuj interfejs i odtwarzacz</string>
     <string name="pick_from_local_storage">Wybierz z pamięci lokalnej</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Śledź stronę Retro Music na Pintrescie po więcej inspiracji</string>
+    <string name="pinterest_page_summary">Śledź stronę YiClap na Pintrescie po więcej inspiracji</string>
     <string name="plain">Wyraźny</string>
     <string name="playList_already_exits">Playlista już istnieje</string>
     <string name="playback_pitch">Tonacja</string>
@@ -452,8 +452,8 @@
     <string name="restored_previous_purchase_please_restart">Przywrócono poprzedni zakup. Zrestartuj aplikacje aby korzystać z wszystkich funkcji.</string>
     <string name="restored_previous_purchases">Przywrócono poprzednie zakupy.</string>
     <string name="restoring_purchase">Przywracanie zakupu...</string>
-    <string name="retro_music_player">Odtwarzacz Retro Music</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">Odtwarzacz YiClap</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">Potrzebujemy uprawnień do ustawień Twojego urządzenia, aby ustawić utwór jako dzwonek</string>
     <string name="ringtone_title">Dzwonek (opcjonalny)</string>
     <string name="saf_delete_failed">Nie udało się usunąć pliku: %s</string>
@@ -533,9 +533,9 @@
     <string name="track_list">Numer utworu</string>
     <string name="translate">Przetłumacz</string>
     <string name="translate_community">Pomóż nam przetłumaczyć aplikację na swój język</string>
-    <string name="try_retro_music_premium">Wypróbuj Retro Music Premium</string>
+    <string name="try_retro_music_premium">Wypróbuj YiClap Premium</string>
     <string name="twitter_page">Strona na Twitterze</string>
-    <string name="twitter_page_summary">Podziel się swoim designem z Retro Music</string>
+    <string name="twitter_page_summary">Podziel się swoim designem z YiClap</string>
     <string name="unlabeled">Niepodpisane</string>
     <string name="unplayable_file">Nie można odtworzyć utworu.</string>
     <string name="up_next">Następne</string>

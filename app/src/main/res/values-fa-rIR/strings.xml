@@ -221,7 +221,7 @@
     <string name="import_playlist">وارد کردن لیست پخش</string>
     <string name="import_playlist_message">تمام لیست های پخش لیست شده در فروشگاه رسانه اندروید را با آهنگ ها وارد می کند، اگر لیست های پخش از قبل وجود داشته باشد، آهنگ ها ادغام می شوند.</string>
     <string name="inserted_x_songs_into_playlist_x">X اهنگ به پلی لیست Y وارد شد.</string>
-    <string name="instagram_page_summary">تنظیمات Retro Music خود را برای نمایش در اینستاگرام به اشتراک بگذارید</string>
+    <string name="instagram_page_summary">تنظیمات YiClap خود را برای نمایش در اینستاگرام به اشتراک بگذارید</string>
     <string name="keyboard">کیبورد</string>
     <string name="label_bit_rate">نرخ بیت</string>
     <string name="label_file_format">فرمت</string>
@@ -303,7 +303,7 @@
     <string name="personalize_settings_summary">صفحه پخش اهنگ و رابط کاربری برنامه را شخصی سازی کنید</string>
     <string name="pick_from_local_storage">از فضای ذخیره‌سازی داخلی انتخاب کنید</string>
     <string name="pinterest_page">پینترست</string>
-    <string name="pinterest_page_summary">صفحه پینترست را برای الهام گرفتن از طراحی Retro Music دنبال کنید</string>
+    <string name="pinterest_page_summary">صفحه پینترست را برای الهام گرفتن از طراحی YiClap دنبال کنید</string>
     <string name="plain">ساده</string>
     <string name="playList_already_exits">لیست پخش از قبل وجود دارد</string>
     <string name="playback_pitch">میزان صدا</string>
@@ -356,7 +356,7 @@
     <string name="pref_summary_home_banner">نمایش یا عدم نمایش نوار</string>
     <string name="pref_summary_ignore_media_store_artwork">می تواند کیفیت جلد آلبوم را افزایش دهد، اما باعث کندی بارگذاری تصویر می شود. فقط اگر با آثار هنری با وضوح پایین مشکل دارید این را فعال کنید</string>
     <string name="pref_summary_library_categories">قابلیت مشاهده و ترتیب دسته‌های کتابخانه را پیکربندی کنید.</string>
-    <string name="pref_summary_lock_screen">از کنترل‌های صفحه قفل سفارشی Retro Music استفاده کنید</string>
+    <string name="pref_summary_lock_screen">از کنترل‌های صفحه قفل سفارشی YiClap استفاده کنید</string>
     <string name="pref_summary_manage_audio_focus">همیشه صدا را در پس زمینه بدون توجه به هر چیز دیگری که در حال پخش است پخش کنید</string>
     <string name="pref_summary_open_source_licences">جزئیات مجوز برای نرم‌افزار منبع باز</string>
     <string name="pref_summary_pause_history">وقتی فعال باشد، آهنگ‌های تازه پخش شده در تاریخ نمایش داده نمی‌شوند</string>

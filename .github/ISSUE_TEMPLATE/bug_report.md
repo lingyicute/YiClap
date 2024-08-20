@@ -8,12 +8,12 @@ assignees: ''
 ---
 
 <!--
-    Don't report bugs that are already in the issue list of Retro Music: https://github.com/h4h13/RetroMusicPlayer/issues
+    Don't report bugs that are already in the issue list of YiClap: https://github.com/lingyicute/YiClap/issues
 
     [ ] Yes
 -->
 
-**Have you read the [FAQ](https://github.com/RetroMusicPlayer/RetroMusicPlayer/blob/master/FAQ.md)?**
+**Have you read the [FAQ](https://github.com/lingyicute/YiClap/blob/master/FAQ.md)?**
 [Yes/No]
 
 **Has the bug already been reported? Please search in GitHub issue tab before creating an issue.**

@@ -158,7 +158,7 @@
     <string name="depth">Diepte</string>
     <string name="description">Beschrijving</string>
     <string name="device_info">Apparaatinfo</string>
-    <string name="dialog_message_set_ringtone">Sta Retro Music toe om audioinstellingen te wijzigen</string>
+    <string name="dialog_message_set_ringtone">Sta YiClap toe om audioinstellingen te wijzigen</string>
     <string name="dialog_title_set_ringtone">Stel in als beltoon</string>
     <string name="disc_hint">Schijfnummer</string>
     <string name="do_you_want_to_clear_the_blacklist">Wil je de zwarte lijst leegmaken?</string>
@@ -221,7 +221,7 @@
     <string name="import_playlist">Importeer afspeellijst</string>
     <string name="import_playlist_message">Het importeert alle afspeellijsten binnenin de Android Media Store met nummers. Als de afspeellijst al bestaat, worden de nummers samengevoegd.</string>
     <string name="inserted_x_songs_into_playlist_x">%1$d liedjes toegevoegd aan afspeellijst %2$s.</string>
-    <string name="instagram_page_summary">Deel jouw Retro Music setup om anderen te emotioneren op Instagram</string>
+    <string name="instagram_page_summary">Deel jouw YiClap setup om anderen te emotioneren op Instagram</string>
     <string name="keyboard">Keyboard</string>
     <string name="label_bit_rate">Bitrate</string>
     <string name="label_file_format">Formaat</string>
@@ -303,7 +303,7 @@
     <string name="personalize_settings_summary">Customize your now playing and UI controls</string>
     <string name="pick_from_local_storage">Kies van local storage</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">Follow Pinterest page for Retro Music design inspiration</string>
+    <string name="pinterest_page_summary">Follow Pinterest page for YiClap design inspiration</string>
     <string name="plain">Vlak</string>
     <string name="playList_already_exits">Afspeellijst bestaat al</string>
     <string name="playback_pitch">Pitch</string>
@@ -448,8 +448,8 @@
     <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
     <string name="restored_previous_purchases">Teruggezette aankopen</string>
     <string name="restoring_purchase">Aankoop herstellen…</string>
-    <string name="retro_music_player">Retro Music Player</string>
-    <string name="retro_music_pro">Retro Music Pro</string>
+    <string name="retro_music_player">YiClap Player</string>
+    <string name="retro_music_pro">YiClap Pro</string>
     <string name="ringtone_summary">The app needs permission to access your device settings in order to set music as Ringtone</string>
     <string name="ringtone_title">Beltoon (Optioneel)</string>
     <string name="saf_delete_failed">Bestand verwijderen gefaald: %s</string>
