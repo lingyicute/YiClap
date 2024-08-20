@@ -7,9 +7,6 @@ import code.name.monkey.appthemehelper.ATH
 import code.name.monkey.appthemehelper.ThemeStore
 import com.google.android.material.materialswitch.MaterialSwitch
 
-/**
- * @author Aidan Follestad (afollestad)
- */
 class ATESwitch @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
