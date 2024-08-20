@@ -33,10 +33,6 @@ import code.name.monkey.retromusic.util.PreferenceUtil
 import com.afollestad.materialdialogs.color.colorChooser
 import com.google.android.material.color.DynamicColors
 
-/**
- * @author Hemanth S (h4h13).
- */
-
 class ThemeSettingsFragment : AbsSettingsFragment() {
     @SuppressLint("CheckResult")
     override fun invalidateSettings() {
@@ -109,6 +105,7 @@ class ThemeSettingsFragment : AbsSettingsFragment() {
         }
 
         val materialYou: ATESwitchPreference? = findPreference(MATERIAL_YOU)
+        materialYou?.isChecked = PreferenceUtil.isMaterialYouEnabled
         materialYou?.setOnPreferenceChangeListener { _, newValue ->
             if (newValue as Boolean) {
                 DynamicColors.applyToActivitiesIfAvailable(App.getContext())
