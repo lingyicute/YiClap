@@ -89,7 +89,7 @@
     <string name="biography">简介</string>
     <string name="black_theme_name">纯黑</string>
     <string name="blacklist">黑名单</string>
-    <string name="bluetooth_summary">应用需要附近设备权限才能检查蓝牙设备</string>
+    <string name="bluetooth_summary">YiClap 需要附近设备权限才能扫描蓝牙设备</string>
     <string name="bluetooth_title">附近设备</string>
     <string name="blur">模糊</string>
     <string name="blur_card">模糊卡片</string>
@@ -294,11 +294,11 @@
     <string name="peek">预览</string>
     <string name="permission_bluetooth_denied">附近设备权限被拒绝。</string>
     <string name="permission_external_storage_denied">访问外部存储权限被拒绝。</string>
-    <string name="permission_summary">应用需要设备存储访问权限来播放音乐</string>
-    <string name="permission_title">存储空间权限</string>
+    <string name="permission_summary">YiClap 需要存储访问权限才可以查找和播放音乐呀～</string>
+    <string name="permission_title">存储空间访问权限</string>
     <string name="permissions_denied">权限被拒绝。</string>
     <string name="personalize">个性化</string>
-    <string name="personalize_settings_summary">自定义正在播放控件和UI控件</string>
+    <string name="personalize_settings_summary">自定义正在播放控件和 App 界面控件</string>
     <string name="pick_from_local_storage">从本地存储选取</string>
     <string name="pinterest_page">Pinterest</string>
     <string name="pinterest_page_summary">在 Pintrest 页面关注 YiClap 的设计灵感</string>
@@ -449,7 +449,7 @@
     <string name="restoring_purchase">正在恢复购买…</string>
     <string name="retro_music_player">YiClap 播放器</string>
     <string name="retro_music_pro">YiClap 高级版</string>
-    <string name="ringtone_summary">应用需要系统设置访问权限，才能将音乐设置为为铃声</string>
+    <string name="ringtone_summary">YiClap 需要系统设置访问权限，才能将音乐设置为铃声</string>
     <string name="ringtone_title">铃声（可选）</string>
     <string name="saf_delete_failed">文件删除失败：%s</string>
     <!-- SAF -->
