@@ -537,11 +537,11 @@
     <string name="update_image">更新图片</string>
     <string name="updating">正在更新…</string>
     <string name="user_images_description">用户图像</string>
-    <string name="user_name">小蟹同学（梨最爱你啦！）</string>
+    <string name="user_name">小蟹同学</string>
     <string name="username">用户名</string>
     <string name="version">版本</string>
     <string name="vertical_flip">垂直翻转</string>
-    <string name="view_on_telegram">在 Telegram 上查看</string>
+    <string name="view_on_telegram">Telegram 频道</string>
     <string name="volume">音量</string>
     <string name="web_search">网络搜索</string>
     <string name="website">网站</string>
