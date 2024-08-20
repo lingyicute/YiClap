@@ -214,7 +214,7 @@
     <string name="horizontal_flip">水平翻转</string>
     <string name="image">图片</string>
     <string name="image_gradient">渐变图片</string>
-    <string name="image_settings_summary">更改歌手图像下载设置</string>
+    <string name="image_settings_summary">更改专辑封面相关设置</string>
     <string name="import_label">导入</string>
     <string name="import_playlist">导入播放列表</string>
     <string name="import_playlist_message">这会导入 Android 媒体存储中的所有播放列表，并合并重复的播放列表</string>
