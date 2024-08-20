@@ -8,13 +8,6 @@ Material Design music player for Android music lovers
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/en/packages/io.github.lingyicute.Music/)
 
-## Differences between YiClap and [RetroMusicPlayer](https://github.com/h4h13/RetroMusicPlayer)
-- Google Play libraries removed (fully libre)
-- Pro features available for free
-- Fully offline (INTERNET permission removed)
-- Bug fixes
-- Minor differences in UI
-
 ## 📱 Screenshots
 ### App Themes
 | <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" width="200"/> | <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.jpg" width="200"/> |
