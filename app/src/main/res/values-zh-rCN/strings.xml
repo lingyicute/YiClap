@@ -18,7 +18,7 @@
     <string name="action_details">详情</string>
     <string name="action_edit">编辑</string>
     <string name="action_go_to_album">查看专辑</string>
-    <string name="action_go_to_artist">查看艺术家</string>
+    <string name="action_go_to_artist">查看歌手</string>
     <string name="action_go_to_genre">查看流派</string>
     <string name="action_go_to_lyrics">查看歌词</string>
     <string name="action_go_to_start_directory">返回起始目录</string>
@@ -62,7 +62,7 @@
     <plurals name="albumSongs">
         <item quantity="other">歌曲</item>
     </plurals>
-    <string name="album_artist">专辑艺术家</string>
+    <string name="album_artist">专辑歌手</string>
     <string name="albums">专辑</string>
     <plurals name="albums">
         <item quantity="other">专辑</item>
@@ -77,8 +77,8 @@
     <string name="app_widget_md3_name">MD3</string>
     <string name="app_widget_small_name">小巧</string>
     <string name="app_widget_text_name">极简文字</string>
-    <string name="artist">艺术家</string>
-    <string name="artists">艺术家</string>
+    <string name="artist">歌手</string>
+    <string name="artists">歌手</string>
     <string name="audio_fade_duration">音乐淡入淡出时长</string>
     <string name="audio_focus_denied">音频焦点丢失。</string>
     <string name="audio_settings_summary">更改声音设置或调整均衡器</string>
@@ -140,7 +140,7 @@
     <string name="created_playlist_x">已创建播放列表 %1$s。</string>
     <string name="credit_title">开发团队和贡献者</string>
     <string name="currently_listening_to_x_by_x">正在收听 %2$s 的 %1$s。</string>
-    <string name="custom_artist_images">自定义艺术家图像</string>
+    <string name="custom_artist_images">自定义歌手图像</string>
     <string name="customactivityoncrash_error_activity_error_details_share">分享崩溃报告</string>
     <string name="dark_theme_name">深色</string>
     <string name="delete_playlist_title">删除播放列表</string>
@@ -214,7 +214,7 @@
     <string name="horizontal_flip">水平翻转</string>
     <string name="image">图片</string>
     <string name="image_gradient">渐变图片</string>
-    <string name="image_settings_summary">更改艺术家图像下载设置</string>
+    <string name="image_settings_summary">更改歌手图像下载设置</string>
     <string name="import_label">导入</string>
     <string name="import_playlist">导入播放列表</string>
     <string name="import_playlist_message">这会导入 Android 媒体存储中的所有播放列表，并合并重复的播放列表</string>
@@ -259,18 +259,18 @@
     <string name="new_playlist_title">新建播放列表</string>
     <string name="new_start_directory">%s 是新的起始目录。</string>
     <string name="next_song">下一曲</string>
-    <string name="no_albums">暂无专辑</string>
-    <string name="no_artists">暂无艺术家</string>
+    <string name="no_albums">还没有专辑呢</string>
+    <string name="no_artists">还没有歌手呢</string>
     <string name="no_audio_ID">"请播放歌曲后重试"</string>
     <string name="no_backups_found">没有找到备份</string>
     <string name="no_equalizer">找不到均衡器</string>
     <string name="no_genres">暂无流派</string>
     <string name="no_lyrics_found">找不到歌词</string>
     <string name="no_playing_queue">没有播放的歌曲</string>
-    <string name="no_playlists">暂无播放列表</string>
-    <string name="no_purchase_found">没有找到购买记录</string>
+    <string name="no_playlists">还没有播放列表呢</string>
+    <string name="no_purchase_found">没有找到记录</string>
     <string name="no_results">暂无结果</string>
-    <string name="no_songs">暂无歌曲</string>
+    <string name="no_songs">还没有歌曲呢</string>
     <string name="normal">正常</string>
     <string name="normal_lyrics">正常歌词</string>
     <string name="not_listed_in_media_store"><![CDATA[<b>%s</b> 未在媒体存储中列出。]]></string>
@@ -279,9 +279,9 @@
     <string name="nothing_to_see">空空如也</string>
     <string name="notification">通知</string>
     <string name="notification_settings_summary">自定义通知样式</string>
-    <string name="now_playing">正在播放</string>
-    <string name="now_playing_queue">正在播放队列</string>
-    <string name="now_playing_summary">定制播放界面</string>
+    <string name="now_playing">播放器</string>
+    <string name="now_playing_queue">播放队列</string>
+    <string name="now_playing_summary">定制属于你的播放器</string>
     <string name="now_playing_themes">多于 9 种播放主题</string>
     <string name="only_on_wifi">仅限 Wi-Fi 网络</string>
     <string name="other_settings_summary">高级测试功能</string>
@@ -298,7 +298,7 @@
     <string name="permission_title">存储空间访问权限</string>
     <string name="permissions_denied">权限被拒绝。</string>
     <string name="personalize">个性化</string>
-    <string name="personalize_settings_summary">自定义正在播放控件和 App 界面控件</string>
+    <string name="personalize_settings_summary">自定义 App 界面元素</string>
     <string name="pick_from_local_storage">从本地存储选取</string>
     <string name="pinterest_page">Pinterest</string>
     <string name="pinterest_page_summary">在 Pintrest 页面关注 YiClap 的设计灵感</string>
@@ -334,7 +334,7 @@
     <string name="pref_language_name">选择语言</string>
     <string name="pref_snow_fall_title">降雪效果</string>
     <string name="pref_summary_album_art_on_lockscreen">将正在播放的歌曲专辑封面设置为锁屏壁纸</string>
-    <string name="pref_summary_album_artists_only">在艺术家类别中显示专辑艺术家</string>
+    <string name="pref_summary_album_artists_only">在歌手类别中显示专辑歌手</string>
     <string name="pref_summary_audio_ducking">当系统播放声音或收到通知时降低音量</string>
     <string name="pref_summary_audio_fade">当歌曲暂停或播放时，淡入淡出音频</string>
     <string name="pref_summary_blacklist">在媒体库中隐藏列入黑名单的文件夹内容。</string>
@@ -348,7 +348,7 @@
     <string name="pref_summary_colored_notification">"将通知颜色设为专辑封面的强调色"</string>
     <string name="pref_summary_cross_fade">曲目间淡入淡出的时长</string>
     <string name="pref_summary_desaturated_color">深色模式下自动使用低饱和度颜色，会更好看一点～</string>
-    <string name="pref_summary_expand_now_playing_panel">点击通知将显示正在播放页，而不是主页</string>
+    <string name="pref_summary_expand_now_playing_panel">点击通知将显示播放器，而不是主页</string>
     <string name="pref_summary_extra_controls">给播放栏添加额外控件</string>
     <string name="pref_summary_extra_song_info">显示额外的歌曲信息，例如文件格式、比特率和频率</string>
     <string name="pref_summary_gapless_playback">"在一些设备上可能会播放异常"</string>
@@ -362,7 +362,7 @@
     <string name="pref_summary_remember_tab">启动时打开上次使用的页面</string>
     <string name="pref_summary_show_lyrics">在专辑封面上显示同步歌词</string>
     <string name="pref_summary_suggestions">在主屏上显示新歌混烧</string>
-    <string name="pref_summary_swipe_anywhere_now_playing">在正在播放界面中启用任意位置滑动切歌</string>
+    <string name="pref_summary_swipe_anywhere_now_playing">在播放器界面中启用任意位置滑动切歌</string>
     <string name="pref_summary_swipe_to_dismiss">向下滑动以关闭播放栏</string>
     <string name="pref_summary_toggle_full_screen">沉浸模式</string>
     <string name="pref_summary_toggle_headset">连接耳机后立即开始播放</string>
@@ -371,7 +371,7 @@
     <string name="pref_summary_wallpaper_accent">从壁纸中提取主题色</string>
     <string name="pref_summary_whitelist">仅显示 /Music 目录的音乐</string>
     <string name="pref_title_album_art_on_lockscreen">显示专辑封面</string>
-    <string name="pref_title_album_artists_only">按专辑艺术家排序</string>
+    <string name="pref_title_album_artists_only">按专辑歌手排序</string>
     <string name="pref_title_album_cover_style">专辑封面主题</string>
     <string name="pref_title_album_cover_transform">专辑封面切换</string>
     <string name="pref_title_app_shortcuts">着色应用快捷方式</string>
@@ -395,7 +395,7 @@
     <string name="pref_title_gapless_playback">无缝播放</string>
     <string name="pref_title_general_theme">应用主题</string>
     <string name="pref_title_home_album_grid_style">专辑网格</string>
-    <string name="pref_title_home_artist_grid_style">主页艺术家网格</string>
+    <string name="pref_title_home_artist_grid_style">主页歌手网格</string>
     <string name="pref_title_home_banner">主页横幅</string>
     <string name="pref_title_ignore_media_store_artwork">忽略媒体存储封面</string>
     <string name="pref_title_last_added_interval">最近播放列表时间间隔</string>
@@ -403,7 +403,7 @@
     <string name="pref_title_lyrics_screen_on">显示歌词时屏幕常亮</string>
     <string name="pref_title_lyrics_type">歌词类型</string>
     <string name="pref_title_manage_audio_focus">忽略其他 App 的播放事件</string>
-    <string name="pref_title_now_playing_screen_appearance">正在播放主题</string>
+    <string name="pref_title_now_playing_screen_appearance">播放器主题</string>
     <string name="pref_title_open_source_licences">鸣谢</string>
     <string name="pref_title_pause_history">暂停历史记录</string>
     <string name="pref_title_remember_tab">记住最后打开页面</string>
@@ -427,7 +427,7 @@
     <string name="rate_app">评价应用</string>
     <string name="rate_on_google_play_summary">喜欢这个应用？去 Google Play 商店告诉我们怎样才能让它更好</string>
     <string name="recent_albums">最近专辑</string>
-    <string name="recent_artists">最近艺术家</string>
+    <string name="recent_artists">最近歌手</string>
     <string name="remove_action">移除</string>
     <string name="remove_cover">移除封面</string>
     <string name="remove_from_blacklist">从黑名单中移除</string>
@@ -441,7 +441,7 @@
     <string name="report_an_issue">报告问题</string>
     <string name="report_bug">报告错误</string>
     <string name="reset_action">重置</string>
-    <string name="reset_artist_image">重置艺术家图片</string>
+    <string name="reset_artist_image">重置歌手图片</string>
     <string name="restore">恢复</string>
     <string name="restore_message">您想要恢复备份吗？</string>
     <string name="restored_previous_purchase_please_restart">恢复以前的购买。请重新启动应用以使用所有功能。</string>
@@ -476,11 +476,11 @@
     <string name="select_all">全选</string>
     <string name="selected">仅选中</string>
     <string name="set">设置</string>
-    <string name="set_artist_image">设置艺术家图片</string>
+    <string name="set_artist_image">设置歌手图片</string>
     <string name="share_app">分享应用</string>
     <string name="share_summary">与您的朋友和家人分享此应用</string>
     <string name="share_to_stories">分享到故事</string>
-    <string name="show_album_artists">显示专辑艺术家</string>
+    <string name="show_album_artists">显示专辑歌手</string>
     <string name="shuffle">随机播放</string>
     <string name="simple">简单</string>
     <string name="sleep_timer_canceled">睡眠定时已取消。</string>
@@ -493,7 +493,7 @@
     <string name="sort_order">排序</string>
     <string name="sort_order_a_z">升序</string>
     <string name="sort_order_album">专辑</string>
-    <string name="sort_order_artist">艺术家</string>
+    <string name="sort_order_artist">歌手</string>
     <string name="sort_order_composer">作曲家</string>
     <string name="sort_order_date">日期</string>
     <string name="sort_order_date_modified">修改日期</string>
@@ -523,7 +523,7 @@
     <string name="title_new_backup">新建备份</string>
     <string name="today">今日</string>
     <string name="top_albums">热门专辑</string>
-    <string name="top_artists">热门艺术家</string>
+    <string name="top_artists">热门歌手</string>
     <string name="track_hint">"音轨（2 代表第 2 条音轨，3004 代表第 3 张盘的第 4 条音轨）"</string>
     <string name="track_list">音轨编号</string>
     <string name="translate">翻译</string>
