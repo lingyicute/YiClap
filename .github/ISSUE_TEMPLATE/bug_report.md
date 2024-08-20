@@ -13,7 +13,7 @@ assignees: ''
     [ ] Yes
 -->
 
-**Have you read the [FAQ](https://github.com/lingyicute/YiClap/blob/master/FAQ.md)?**
+**Have you read the [FAQ](https://github.com/lingyicute/YiClap/blob/main/FAQ.md)?**
 [Yes/No]
 
 **Has the bug already been reported? Please search in GitHub issue tab before creating an issue.**
