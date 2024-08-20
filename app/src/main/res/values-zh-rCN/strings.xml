@@ -251,7 +251,7 @@
     <string name="message_pro_feature">%s 是高级版功能。</string>
     <string name="message_restore_success">还原成功完成。</string>
     <string name="message_updated">已更新</string>
-    <string name="message_welcome"><![CDATA[您好！ <br>欢迎使用 %s]]></string>
+    <string name="message_welcome"><![CDATA[你好呀！ <br>欢迎使用 %s]]></string>
     <string name="my_name">我的名字</string>
     <string name="my_top_tracks">最常播放</string>
     <string name="never">从不</string>
