@@ -356,7 +356,7 @@
     <string name="pref_summary_ignore_media_store_artwork">可以提高封面质量，但加载时间较慢。请仅在图片分辨率过低时开启。</string>
     <string name="pref_summary_library_categories">配置媒体库的可见性和顺序</string>
     <string name="pref_summary_lock_screen">使用 YiClap 的自定义锁屏</string>
-    <string name="pref_summary_manage_audio_focus">其他内容播放时，在后台继续播放音频</string>
+    <string name="pref_summary_manage_audio_focus">其他 App 播放内容时，不再自动暂停</string>
     <string name="pref_summary_open_source_licences">感谢这些对 YiClap 的开发有所帮助的开源软件及其开发者～</string>
     <string name="pref_summary_pause_history">启用后，新播放的歌曲不会显示在历史记录中</string>
     <string name="pref_summary_remember_tab">启动时打开上次使用的页面</string>
@@ -402,7 +402,7 @@
     <string name="pref_title_lock_screen">全屏控件</string>
     <string name="pref_title_lyrics_screen_on">显示歌词时屏幕常亮</string>
     <string name="pref_title_lyrics_type">歌词类型</string>
-    <string name="pref_title_manage_audio_focus">始终播放</string>
+    <string name="pref_title_manage_audio_focus">忽略其他 App 的播放事件</string>
     <string name="pref_title_now_playing_screen_appearance">正在播放主题</string>
     <string name="pref_title_open_source_licences">鸣谢</string>
     <string name="pref_title_pause_history">暂停历史记录</string>
