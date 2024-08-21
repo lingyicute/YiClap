@@ -33,8 +33,7 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.appcompat.app.AppCompatActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
-    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
-        setPreferencesFromResource(R.xml.pref_general, rootKey)
+    setPreferencesFromResource(R.xml.pref_general, rootKey)
     }
 }
 
