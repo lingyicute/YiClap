@@ -37,7 +37,7 @@ import code.name.monkey.retromusic.util.PreferenceUtil
 import code.name.monkey.retromusic.util.color.MediaNotificationProcessor
 
 /**
- * @author Hemanth S (h4h13).
+ * @author lingyicute
  */
 
 class SimplePlaybackControlsFragment :

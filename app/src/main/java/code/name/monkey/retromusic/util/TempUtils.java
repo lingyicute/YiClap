@@ -14,7 +14,7 @@
 
 package code.name.monkey.retromusic.util;
 
-/** @author Hemanth S (h4h13). */
+/** @author lingyicute */
 public class TempUtils {
 
   // Enums

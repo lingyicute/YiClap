@@ -20,7 +20,7 @@ import kotlin.math.abs
 import kotlin.math.max
 
 /**
- * @author Hemanth S (h4h13).
+ * @author lingyicute
  */
 
 class NormalPageTransformer : ViewPager.PageTransformer {

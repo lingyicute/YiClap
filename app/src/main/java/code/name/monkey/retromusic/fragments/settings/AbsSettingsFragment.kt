@@ -30,7 +30,7 @@ import code.name.monkey.retromusic.preferences.*
 import dev.chrisbanes.insetter.applyInsetter
 
 /**
- * @author Hemanth S (h4h13).
+ * @author lingyicute
  */
 
 abstract class AbsSettingsFragment : ATEPreferenceFragmentCompat() {
