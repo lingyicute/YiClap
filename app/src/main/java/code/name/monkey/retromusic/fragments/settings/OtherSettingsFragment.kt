@@ -30,7 +30,7 @@ import org.koin.androidx.viewmodel.ext.android.activityViewModel
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 /**
- * @author Hemanth S (h4h13).
+ * @author lingyicute
  */
 
 class OtherSettingsFragment : AbsSettingsFragment() {

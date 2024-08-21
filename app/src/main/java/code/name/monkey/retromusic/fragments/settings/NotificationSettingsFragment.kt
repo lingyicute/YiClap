@@ -26,7 +26,7 @@ import code.name.monkey.retromusic.R
 import code.name.monkey.retromusic.util.PreferenceUtil
 
 /**
- * @author Hemanth S (h4h13).
+ * @author lingyicute
  */
 
 class NotificationSettingsFragment : AbsSettingsFragment(),

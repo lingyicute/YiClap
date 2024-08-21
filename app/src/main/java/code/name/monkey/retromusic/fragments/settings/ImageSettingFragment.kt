@@ -18,7 +18,7 @@ import android.os.Bundle
 import code.name.monkey.retromusic.R
 
 /**
- * @author Hemanth S (h4h13).
+ * @author lingyicute
  */
 
 class ImageSettingFragment : AbsSettingsFragment() {

@@ -53,7 +53,7 @@ import com.bumptech.glide.request.target.CustomTarget
 import com.bumptech.glide.request.transition.Transition
 
 /**
- * @author Hemanth S (h4h13).
+ * @author lingyicute
  */
 @SuppressLint("RestrictedApi")
 class PlayingNotificationClassic(

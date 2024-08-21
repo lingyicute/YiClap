@@ -29,7 +29,7 @@ import code.name.monkey.retromusic.activities.base.AbsBaseActivity.Companion.BLU
 import code.name.monkey.retromusic.util.NavigationUtil
 
 /**
- * @author Hemanth S (h4h13).
+ * @author lingyicute
  */
 
 class AudioSettings : AbsSettingsFragment() {
