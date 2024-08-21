@@ -116,8 +116,6 @@ class PermissionActivity : AbsMusicServiceActivity() {
         binding.appNameText.text = appName
     }
 
-    
-
     override fun onResume() {
         super.onResume()
         binding.finish.isEnabled = hasStoragePermission()

@@ -5,9 +5,9 @@
     <string name="accent_color_desc">主題重色，預設為藍綠色</string>
     <string name="action_about">關於</string>
     <string name="action_add_to_favorites">加入至我的最愛</string>
-    <string name="action_add_to_playing_queue">加入至播放列表</string>
+    <string name="action_add_to_playing_queue">加入至歌单</string>
     <string name="action_add_to_playlist">加入至播放清單</string>
-    <string name="action_clear_playing_queue">清除播放列表</string>
+    <string name="action_clear_playing_queue">清除歌单</string>
     <string name="action_cycle_repeat">循環播放模式</string>
     <string name="action_delete">刪除</string>
     <string name="action_delete_from_device">由裝置記憶體刪除</string>
@@ -27,7 +27,7 @@
     <string name="action_play_pause">播放/暫停</string>
     <string name="action_previous">上一首</string>
     <string name="action_remove_from_favorites">由我的最愛移除</string>
-    <string name="action_remove_from_playing_queue">由播放列表移除</string>
+    <string name="action_remove_from_playing_queue">由歌单移除</string>
     <string name="action_remove_from_playlist">由播放清單移除</string>
     <string name="action_rename">重新命名</string>
     <string name="action_save_playing_queue">儲存播放清單</string>
@@ -49,8 +49,8 @@
     <string name="add_action">增加</string>
     <string name="add_playlist_title">"加入至播放清單"</string>
     <string name="add_time_framed_lryics">增加時間同步歌詞</string>
-    <string name="added_title_to_playing_queue">"已經將1首歌曲新增至播放列表。"</string>
-    <string name="added_x_titles_to_playing_queue">已經將 %1$d 首歌曲新增至播放列表。</string>
+    <string name="added_title_to_playing_queue">"已經將1首歌曲新增至歌单。"</string>
+    <string name="added_x_titles_to_playing_queue">已經將 %1$d 首歌曲新增至歌单。</string>
     <string name="album">專輯</string>
     <string name="album_artist">專輯歌手</string>
     <string name="albums">專輯</string>
@@ -320,7 +320,7 @@
     <string name="pro_summary">現時播放主題、轉盤效果，還有更多...</string>
     <string name="profile">個人資料</string>
     <string name="purchase">購買</string>
-    <string name="queue">播放列表</string>
+    <string name="queue">歌单</string>
     <string name="rate_app">為這個App評分</string>
     <string name="rate_on_google_play_summary">喜歡這個App嗎?請讓我們知道如何提供更好的體驗</string>
     <string name="recent_albums">近期專輯</string>
