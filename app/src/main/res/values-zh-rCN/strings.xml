@@ -55,9 +55,9 @@
     <string name="add_action">添加</string>
     <string name="add_playlist_title">加入歌单</string>
     <string name="add_time_framed_lryics">添加同步歌词</string>
-    <string name="added_song_count_to_playlist">搞定啦！已将 %1$d 首歌添加到 %2$s</string>
-    <string name="added_title_to_playing_queue">搞定啦！已添加 1 首歌到播放队列。</string>
-    <string name="added_x_titles_to_playing_queue">搞定啦！已添加 %1$d 首歌到播放队列。</string>
+    <string name="added_song_count_to_playlist">搞定啦！已添加 %1$d 首歌到 %2$s</string>
+    <string name="added_title_to_playing_queue">好哦～已添加到播放队列</string>
+    <string name="added_x_titles_to_playing_queue">没问题！已添加 %1$d 首歌到播放队列。</string>
     <string name="album">专辑</string>
     <plurals name="albumSongs">
         <item quantity="other">歌曲</item>
@@ -484,7 +484,7 @@
     <string name="shuffle">随机播放</string>
     <string name="simple">简单</string>
     <string name="sleep_timer_canceled">睡眠定时已取消。</string>
-    <string name="sleep_timer_set">搞定啦！睡眠定时器已设置为 %d 分钟。</string>
+    <string name="sleep_timer_set">搞定啦！睡眠定时器已设置为 %d 分钟</string>
     <string name="social">社交</string>
     <string name="social_stories">分享故事</string>
     <string name="song">歌曲</string>
