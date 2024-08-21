@@ -33,7 +33,7 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.appcompat.app.AppCompatActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
-    setPreferencesFromResource(R.xml.pref_general, rootKey)
+    addPreferencesFromResource(R.xml.pref_general, rootKey)
     }
 }
 
