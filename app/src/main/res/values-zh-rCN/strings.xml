@@ -3,7 +3,7 @@
     <string name="about_album_label">关于 %s</string>
     <string name="about_settings_summary">梨最爱你啦！</string>
     <string name="accent_color">主题色</string>
-    <string name="accent_color_desc">主题强调色，关闭莫奈取色后才可以设置哦～</string>
+    <string name="accent_color_desc">关闭莫奈取色后才可以设置哦</string>
     <string name="action_about">关于</string>
     <string name="action_add_to_blacklist">加入黑名单</string>
     <string name="action_add_to_favorites">加入收藏夹</string>
@@ -189,7 +189,7 @@
     <string name="free">免费</string>
     <string name="full">全屏</string>
     <string name="full_card">填充卡片</string>
-    <string name="general_settings_summary">更改应用的主题和颜色</string>
+    <string name="general_settings_summary">更改 App 的主题和颜色</string>
     <string name="general_settings_title">界面与外观</string>
     <string name="genre">流派</string>
     <string name="genres">流派</string>
@@ -284,7 +284,7 @@
     <string name="now_playing_summary">定制属于你的播放器</string>
     <string name="now_playing_themes">多于 9 种播放主题</string>
     <string name="only_on_wifi">仅限 Wi-Fi 网络</string>
-    <string name="other_settings_summary">高级测试功能</string>
+    <string name="other_settings_summary">高级功能</string>
     <string name="others">其他</string>
     <string name="over_cover">覆盖封面</string>
     <string name="password">密码</string>
@@ -301,7 +301,7 @@
     <string name="personalize_settings_summary">自定义 App 界面元素</string>
     <string name="pick_from_local_storage">从本地存储选取</string>
     <string name="pinterest_page">Pinterest</string>
-    <string name="pinterest_page_summary">在 Pintrest 页面关注 YiClap 的设计灵感</string>
+    <string name="pinterest_page_summary">Pintrest 页面</string>
     <string name="plain">简洁</string>
     <string name="playList_already_exits">歌单已存在</string>
     <string name="playback_pitch">音高</string>
@@ -315,8 +315,8 @@
     <string name="playlists">歌单</string>
     <string name="pref_blur_amount_summary">应用于模糊主题，数值越低加载越快</string>
     <string name="pref_blur_amount_title">模糊程度</string>
-    <string name="pref_filter_song_summary">按长度筛选歌曲</string>
-    <string name="pref_filter_song_title">筛选歌曲时长</string>
+    <string name="pref_filter_song_summary">比此处设定更短的音频将被忽略（单位: 秒）</string>
+    <string name="pref_filter_song_title">音频过滤</string>
     <string name="pref_header_advanced">高级</string>
     <string name="pref_header_album">专辑样式</string>
     <string name="pref_header_audio">音频</string>
@@ -337,20 +337,20 @@
     <string name="pref_summary_album_artists_only">在歌手类别中显示专辑歌手</string>
     <string name="pref_summary_audio_ducking">当系统播放声音或收到通知时降低音量</string>
     <string name="pref_summary_audio_fade">当歌曲暂停或播放时，淡入淡出音频</string>
-    <string name="pref_summary_blacklist">在媒体库中隐藏列入黑名单的文件夹内容。</string>
+    <string name="pref_summary_blacklist">YiClap 会隐藏黑名单里的内容</string>
     <string name="pref_summary_bluetooth_playback">连接到蓝牙设备后立即开始播放</string>
-    <string name="pref_summary_blurred_album_art">模糊化显示锁屏上的专辑封面。可能与第三方应用或微件产生冲突。</string>
+    <string name="pref_summary_blurred_album_art">模糊化显示锁屏上的专辑封面。可能与第三方应用或小部件产生冲突。</string>
     <string name="pref_summary_carousel_effect">在播放页为专辑图片使用轮播效果。
 使用时卡片和模糊卡片主题不会生效。</string>
     <string name="pref_summary_classic_notification">使用经典通知样式</string>
     <string name="pref_summary_colored_app">背景及控件颜色跟随专辑封面变化</string>
-    <string name="pref_summary_colored_app_shortcuts">将快捷方式颜色更改为强调色，每次颜色更改后需要切换一下该设置才能生效</string>
+    <string name="pref_summary_colored_app_shortcuts">将快捷方式颜色和主题色同步</string>
     <string name="pref_summary_colored_notification">"将通知颜色设为专辑封面的强调色"</string>
     <string name="pref_summary_cross_fade">曲目间淡入淡出的时长</string>
     <string name="pref_summary_desaturated_color">深色模式下自动使用低饱和颜色，会更好看一点～</string>
     <string name="pref_summary_expand_now_playing_panel">点击通知将显示播放器，而不是主页</string>
     <string name="pref_summary_extra_controls">给播放栏添加额外控件</string>
-    <string name="pref_summary_extra_song_info">显示额外的歌曲信息，例如文件格式、比特率和频率</string>
+    <string name="pref_summary_extra_song_info">显示额外信息，例如文件格式和比特率</string>
     <string name="pref_summary_gapless_playback">"在一些设备上可能会播放异常"</string>
     <string name="pref_summary_home_banner">在主页上显示横幅</string>
     <string name="pref_summary_ignore_media_store_artwork">可以提高封面质量，但加载时间较慢。请仅在图片分辨率过低时开启。</string>
@@ -361,7 +361,7 @@
     <string name="pref_summary_pause_history">启用后，新播放的歌曲不会显示在历史记录中</string>
     <string name="pref_summary_remember_tab">启动时打开上次使用的页面</string>
     <string name="pref_summary_show_lyrics">在专辑封面上显示同步歌词</string>
-    <string name="pref_summary_suggestions">在主屏上显示新歌混烧</string>
+    <string name="pref_summary_suggestions">在主页上显示新歌混烧</string>
     <string name="pref_summary_swipe_anywhere_now_playing">在播放器界面中启用任意位置滑动切歌</string>
     <string name="pref_summary_swipe_to_dismiss">向下滑动以关闭播放栏</string>
     <string name="pref_summary_toggle_full_screen">沉浸模式</string>
