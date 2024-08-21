@@ -29,6 +29,23 @@ import code.name.monkey.appthemehelper.common.prefs.supportv7.ATESwitchPreferenc
 import code.name.monkey.appthemehelper.util.ColorUtil
 import code.name.monkey.appthemehelper.util.VersionUtils
 import code.name.monkey.retromusic.util.PreferenceUtil
+import androidx.preference.PreferenceFragmentCompat
+
+class SettingsActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        supportFragmentManager
+            .beginTransaction()
+            .replace(android.R.id.content, SettingsFragment())
+            .commit()
+    }
+}
+
+class SettingsFragment : PreferenceFragmentCompat() {
+    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
+        setPreferencesFromResource(R.xml.pref_general, rootKey)
+    }
+}
 
 class PermissionActivity : AbsMusicServiceActivity() {
     private lateinit var binding: ActivityPermissionBinding
@@ -71,7 +88,6 @@ class PermissionActivity : AbsMusicServiceActivity() {
         binding.finish.accentBackgroundColor()
         binding.finish.setOnClickListener {
             if (hasPermissions()) {
-                addPreferencesFromResource(R.xml.pref_general)
                 DynamicColors.applyToActivitiesIfAvailable(App.getContext())
                 startActivity(
                     Intent(this, MainActivity::class.java).addFlags(
@@ -99,6 +115,8 @@ class PermissionActivity : AbsMusicServiceActivity() {
                 .parseAsHtml()
         binding.appNameText.text = appName
     }
+
+    
 
     override fun onResume() {
         super.onResume()
