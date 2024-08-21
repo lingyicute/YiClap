@@ -255,7 +255,7 @@
     <string name="my_name">你的名字</string>
     <string name="my_top_tracks">最常播放</string>
     <string name="never">从不</string>
-    <string name="new_music_mix">新歌混烧</string>
+    <string name="new_music_mix">新歌速递</string>
     <string name="new_playlist_title">新建歌单</string>
     <string name="new_start_directory">%s 是新的起始目录。</string>
     <string name="next_song">下一曲</string>
@@ -444,7 +444,7 @@
     <string name="reset_artist_image">重置歌手图片</string>
     <string name="restore">恢复</string>
     <string name="restore_message">您想要恢复备份吗？</string>
-    <string name="restored_previous_purchase_please_restart">请重新启动应用以使用所有功能。</string>
+    <string name="restored_previous_purchase_please_restart">请重新启动 YiClap 以使用所有功能。</string>
     <string name="restored_previous_purchases">恢复</string>
     <string name="restoring_purchase">正在恢复…</string>
     <string name="retro_music_player">YiClap 播放器</string>
