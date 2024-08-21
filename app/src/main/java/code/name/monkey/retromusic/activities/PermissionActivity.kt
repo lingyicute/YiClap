@@ -16,6 +16,7 @@ import androidx.core.view.isVisible
 import androidx.core.content.edit
 import androidx.preference.Preference
 import androidx.preference.TwoStatePreference
+import code.name.monkey.appthemehelper.util.VersionUtils
 import code.name.monkey.retromusic.activities.base.AbsMusicServiceActivity
 import code.name.monkey.retromusic.databinding.ActivityPermissionBinding
 import code.name.monkey.retromusic.extensions.*
@@ -27,14 +28,7 @@ import code.name.monkey.appthemehelper.ThemeStore
 import code.name.monkey.appthemehelper.common.prefs.supportv7.ATEColorPreference
 import code.name.monkey.appthemehelper.common.prefs.supportv7.ATESwitchPreference
 import code.name.monkey.appthemehelper.util.ColorUtil
-import code.name.monkey.appthemehelper.util.VersionUtils
 import code.name.monkey.retromusic.util.PreferenceUtil
-import androidx.preference.PreferenceFragmentCompat
-import androidx.appcompat.app.AppCompatActivity
-
-class SettingsFragment : PreferenceFragmentCompat() {
-    setPreferencesFromResource(R.xml.pref_general, rootKey)
-}
 
 class PermissionActivity : AbsMusicServiceActivity() {
     private lateinit var binding: ActivityPermissionBinding
