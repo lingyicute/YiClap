@@ -357,7 +357,7 @@
     <string name="pref_summary_library_categories">配置媒体库的可见性和顺序</string>
     <string name="pref_summary_lock_screen">使用 YiClap 的自定义锁屏</string>
     <string name="pref_summary_manage_audio_focus">其他 App 播放内容时，不再自动暂停</string>
-    <string name="pref_summary_open_source_licences">感谢这些对 YiClap 的开发有所帮助的开源软件及其开发者～</string>
+    <string name="pref_summary_open_source_licences">感谢这些对 YiClap 的开发有所帮助的开源软件及其开发者</string>
     <string name="pref_summary_pause_history">启用后，新播放的歌曲不会显示在历史记录中</string>
     <string name="pref_summary_remember_tab">启动时打开上次使用的页面</string>
     <string name="pref_summary_show_lyrics">在专辑封面上显示同步歌词</string>
@@ -397,7 +397,7 @@
     <string name="pref_title_home_album_grid_style">专辑网格</string>
     <string name="pref_title_home_artist_grid_style">主页歌手网格</string>
     <string name="pref_title_home_banner">主页横幅</string>
-    <string name="pref_title_ignore_media_store_artwork">忽略媒体存储封面</string>
+    <string name="pref_title_ignore_media_store_artwork">忽略专辑封面缓存</string>
     <string name="pref_title_last_added_interval">最近歌单时间间隔</string>
     <string name="pref_title_lock_screen">全屏控件</string>
     <string name="pref_title_lyrics_screen_on">显示歌词时屏幕常亮</string>
