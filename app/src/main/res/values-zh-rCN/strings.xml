@@ -345,7 +345,7 @@
     <string name="pref_summary_classic_notification">使用经典通知样式</string>
     <string name="pref_summary_colored_app">背景及控件颜色跟随专辑封面变化</string>
     <string name="pref_summary_colored_app_shortcuts">将快捷方式颜色和主题色同步</string>
-    <string name="pref_summary_colored_notification">将通知颜色设为专辑封面的强调色</string>
+    <string name="pref_summary_colored_notification">将通知颜色设为专辑封面的主题色</string>
     <string name="pref_summary_cross_fade">曲目间淡入淡出的时长</string>
     <string name="pref_summary_desaturated_color">深色模式下自动使用低饱和颜色，会更好看一点～</string>
     <string name="pref_summary_expand_now_playing_panel">点击通知将显示播放器，而不是主页</string>
