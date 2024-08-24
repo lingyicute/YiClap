@@ -249,7 +249,7 @@
     <string name="lyrics">Lyrics</string>
     <string name="made_with_love">Made with ❤️ in India</string>
     <string name="material">Material</string>
-    <string name="md3" translatable="false">MD3</string>
+    <string name="md3" translatable="false">Material You</string>
     <string name="md_error_label">Error</string>
     <string name="md_storage_perm_error">Permission error</string>
     <string name="message_backup_create_success">Backup created successfully.</string>

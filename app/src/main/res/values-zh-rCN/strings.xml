@@ -92,7 +92,7 @@
     <string name="bluetooth_summary">YiClap 需要附近设备权限才能扫描蓝牙设备</string>
     <string name="bluetooth_title">附近设备</string>
     <string name="blur">模糊</string>
-    <string name="blur_card">模糊卡片</string>
+    <string name="blur_card">模糊·卡片</string>
     <string name="bug_report_failed">无法提交报告</string>
     <string name="bug_report_failed_invalid_token">无效的访问令牌，请联系开发者。</string>
     <string name="bug_report_failed_issues_not_available">出错了，请联系开发者。</string>
@@ -126,7 +126,7 @@
     <string name="clear_blacklist">清空黑名单</string>
     <string name="clear_history">清除历史记录</string>
     <string name="clear_playing_queue">清空队列</string>
-    <string name="color">颜色</string>
+    <string name="color">多彩</string>
     <string name="colors">更多颜色</string>
     <string name="compact">紧凑</string>
     <string name="composer">作曲家</string>
@@ -271,7 +271,7 @@
     <string name="no_purchase_found">没有找到记录</string>
     <string name="no_results">暂无结果</string>
     <string name="no_songs">还没有歌曲呢</string>
-    <string name="normal">正常</string>
+    <string name="normal">常规</string>
     <string name="normal_lyrics">正常歌词</string>
     <string name="not_listed_in_media_store"><![CDATA[<b>%s</b> 未在媒体存储中列出。]]></string>
     <string name="not_recently_played">最近未播放歌曲</string>
@@ -291,7 +291,7 @@
     <string name="past_three_months">最近三个月</string>
     <string name="paste_lyrics_here">在此粘贴歌词</string>
     <string name="paste_timeframe_lyrics_here">在此粘贴时段歌词</string>
-    <string name="peek">预览</string>
+    <string name="peek">概览</string>
     <string name="permission_bluetooth_denied">附近设备权限被拒绝。</string>
     <string name="permission_external_storage_denied">外部存储权限被拒绝。</string>
     <string name="permission_summary">YiClap 需要存储访问权限才可以查找和播放音乐呀～</string>
@@ -482,7 +482,7 @@
     <string name="share_to_stories">分享到故事</string>
     <string name="show_album_artists">显示专辑歌手</string>
     <string name="shuffle">随机播放</string>
-    <string name="simple">简单</string>
+    <string name="simple">极简</string>
     <string name="sleep_timer_canceled">睡眠定时已取消。</string>
     <string name="sleep_timer_set">搞定啦！睡眠定时器已设置为 %d 分钟</string>
     <string name="social">社交</string>
@@ -517,7 +517,7 @@
     <string name="this_month">本月</string>
     <string name="this_week">本周</string>
     <string name="this_year">今年</string>
-    <string name="tiny">细小</string>
+    <string name="tiny">与众不同</string>
     <string name="tiny_card_style">小卡片</string>
     <string name="title">标题</string>
     <string name="title_new_backup">新建备份</string>
