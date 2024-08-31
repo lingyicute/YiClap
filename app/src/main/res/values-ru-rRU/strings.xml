@@ -392,7 +392,7 @@
     <string name="pref_title_colored_app">Адаптивный цвет</string>
     <string name="pref_title_colored_notification">Окрашенное уведомление</string>
     <string name="pref_title_cross_fade">Кроссфейд (бета-версия)</string>
-    <string name="pref_title_custom_font">Использовать шрифт Manrope</string>
+    <string name="pref_title_custom_font">Использовать шрифт lyi's</string>
     <string name="pref_title_desaturated_color">Обесцвеченный цвет</string>
     <string name="pref_title_expand_now_playing_panel">Показывать экран воспроизведения</string>
     <string name="pref_title_extra_controls">Дополнительные элементы управления</string>

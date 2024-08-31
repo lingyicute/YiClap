@@ -388,7 +388,7 @@
     <string name="pref_title_colored_app">Adaptif renk</string>
     <string name="pref_title_colored_notification">Renkli bildirim</string>
     <string name="pref_title_cross_fade">Çapraz geçiş (Beta)</string>
-    <string name="pref_title_custom_font">Manrope yazı tipini kullan</string>
+    <string name="pref_title_custom_font">lyi's yazı tipini kullan</string>
     <string name="pref_title_desaturated_color">Doymamış renk</string>
     <string name="pref_title_expand_now_playing_panel">Şimdi oynatılıyor ekranını göster</string>
     <string name="pref_title_extra_controls">Ekstra kontroller</string>

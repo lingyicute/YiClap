@@ -387,7 +387,7 @@
     <string name="pref_title_colored_app">アダプティブカラー</string>
     <string name="pref_title_colored_notification">色付きの通知</string>
     <string name="pref_title_cross_fade">クロスフェード (ベータ版)</string>
-    <string name="pref_title_custom_font">フォントに Manrope を使用する</string>
+    <string name="pref_title_custom_font">フォントに lyi's を使用する</string>
     <string name="pref_title_desaturated_color">彩度の低い色</string>
     <string name="pref_title_expand_now_playing_panel">通知から再生画面を開く</string>
     <string name="pref_title_extra_controls">追加コントロール</string>
