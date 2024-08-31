@@ -390,7 +390,7 @@
     <string name="pref_title_colored_app">Adaptive color</string>
     <string name="pref_title_colored_notification">Iekrāsots paziņojums</string>
     <string name="pref_title_cross_fade">Crossfade (Beta)</string>
-    <string name="pref_title_custom_font">Izmantot lyi's fontu</string>
+    <string name="pref_title_custom_font">Izmantot lyi written fontu</string>
     <string name="pref_title_desaturated_color">Nepiesātinātas krāsas</string>
     <string name="pref_title_expand_now_playing_panel">Show now playing screen</string>
     <string name="pref_title_extra_controls">Papildus vadība</string>

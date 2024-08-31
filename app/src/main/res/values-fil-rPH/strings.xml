@@ -388,7 +388,7 @@
     <string name="pref_title_colored_app">Adaptive na kulay</string>
     <string name="pref_title_colored_notification">May kulay na notification</string>
     <string name="pref_title_cross_fade">Crossfade (Beta)</string>
-    <string name="pref_title_custom_font">Use lyi's font</string>
+    <string name="pref_title_custom_font">Use lyi written font</string>
     <string name="pref_title_desaturated_color">Desaturated na kulay</string>
     <string name="pref_title_expand_now_playing_panel">Ipakita ang now playing screen</string>
     <string name="pref_title_extra_controls">Mga karagdagang kontrol</string>

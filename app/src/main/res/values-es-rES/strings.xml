@@ -388,7 +388,7 @@
     <string name="pref_title_colored_app">Color adaptable</string>
     <string name="pref_title_colored_notification">Notificación coloreada</string>
     <string name="pref_title_cross_fade">Transición (Beta)</string>
-    <string name="pref_title_custom_font">Usar la fuente \"lyi's\"</string>
+    <string name="pref_title_custom_font">Usar la fuente \"lyi written\"</string>
     <string name="pref_title_desaturated_color">Color desaturado</string>
     <string name="pref_title_expand_now_playing_panel">Mostrar en pantalla de reproducción actual</string>
     <string name="pref_title_extra_controls">Controles extras</string>
