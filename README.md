@@ -3,8 +3,7 @@
 
 ![image](https://raw.githubusercontent.com/lingyicute/YiClap/main/app/src/main/res/drawable/material_design_default.webp)
 
-### 📱 Screenshots
-### App Themes
+## 📱 Screenshots
 ![Screenshot](https://raw.githubusercontent.com/lingyicute/YiClap/main/fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg)
 
 ## 🧭 Navigation never made easier 
@@ -41,7 +40,6 @@ Where you can view your recently/top played artists, albums and favorite songs.
 -  User profile
 -  Browse and play your music by songs, albums, artists, playlists and genre
 -  Smart Auto Playlists - Recently played, most played and history
--  Build your playlist on the go
 
 > Please note: YiClap is an offline music player app. It doesn't support music downloading or online music streaming.
 
@@ -63,3 +61,4 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see https://www.gnu.org/licenses.
+
