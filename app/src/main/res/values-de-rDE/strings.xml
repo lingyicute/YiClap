@@ -388,7 +388,7 @@
     <string name="pref_title_colored_app">Farbanpassung</string>
     <string name="pref_title_colored_notification">Farbige Benachrichtigungen</string>
     <string name="pref_title_cross_fade">Überblenden (experimentell)</string>
-    <string name="pref_title_custom_font">lyi's-Schriftart verwenden</string>
+    <string name="pref_title_custom_font">lyi written-Schriftart verwenden</string>
     <string name="pref_title_desaturated_color">Entsättigte Farben</string>
     <string name="pref_title_expand_now_playing_panel">Wiedergabe-Bildschirm anzeigen</string>
     <string name="pref_title_extra_controls">Zusätzliche Steuerelemente</string>

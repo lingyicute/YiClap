@@ -388,7 +388,7 @@
     <string name="pref_title_colored_app">Adaptív szín</string>
     <string name="pref_title_colored_notification">Színes értesítés</string>
     <string name="pref_title_cross_fade">Átfedés (Béta)</string>
-    <string name="pref_title_custom_font">lyi's betűtípus használata</string>
+    <string name="pref_title_custom_font">lyi written betűtípus használata</string>
     <string name="pref_title_desaturated_color">Deszaturált szín</string>
     <string name="pref_title_expand_now_playing_panel">Most játszott képernyő mutatása</string>
     <string name="pref_title_extra_controls">Extra vezérlők</string>
