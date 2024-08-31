@@ -1,3 +1,0 @@
-- Fixed songs not loading from SD card
-- Changed default grid size for libraries
-- Fixed crash on rotating the device

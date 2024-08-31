@@ -1,3 +1,0 @@
-See in-app changelog for more information.
-
-NOTE: YiClap is a fully offline music player, and intends to remain so. So, any features such as scribbling, fetching lyrics, album arts, etc. will never be available.
