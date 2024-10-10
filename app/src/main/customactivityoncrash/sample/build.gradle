@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 32
+        versionCode 13
+        versionName "2.4.0-SNAPSHOT"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles 'proguard-rules.pro'
+        }
+    }
+    namespace 'cat.ereza.customactivityoncrash.sample'
+}
+
+dependencies {
+    implementation project(":library")
+}
