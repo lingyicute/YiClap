@@ -20,3 +20,6 @@ dependencyResolutionManagement {
 }
 
 include ':app', ':appthemehelper'
+
+include ':customactivityoncrash'
+project(':customactivityoncrash').projectDir = new File(rootProject.projectDir, 'app/src/main/customactivityoncrash')
