@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
-    <string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
-    <string name="customactivityoncrash_error_activity_close_app">Close app</string>
-    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
-    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
-    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
-    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
-    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
-    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">哎呀，YiClap 发生了意外的小错误呢。\n真是抱歉给你带来麻烦啦！</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重启 YiClap</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭 YiClap</string>
+    <string name="customactivityoncrash_error_activity_error_details">错误信息</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">错误信息</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制到剪贴板</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">已复制到剪贴板哦</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误信息</string>
 </resources>
