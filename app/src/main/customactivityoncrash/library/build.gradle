@@ -1,0 +1,24 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 32
+    resourcePrefix 'customactivityoncrash_'
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 32
+    }
+    namespace 'cat.ereza.customactivityoncrash'
+}
+
+ext {
+    PUBLISH_GROUP_ID = 'cat.ereza'
+    PUBLISH_ARTIFACT_ID = 'customactivityoncrash'
+    PUBLISH_VERSION = '2.4.0-SNAPSHOT'
+}
+
+apply from: "publish-mavencentral.gradle"
+
+dependencies {
+    api 'androidx.appcompat:appcompat:1.4.1'
+}
