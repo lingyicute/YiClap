@@ -372,7 +372,7 @@
     <string name="pref_summary_show_lyrics">在专辑封面上显示同步歌词</string>
     <string name="pref_summary_suggestions">在主页上显示新歌速递</string>
     <string name="pref_summary_swipe_anywhere_now_playing">在播放器界面中启用任意位置滑动切歌</string>
-    <string name="pref_summary_swipe_to_dismiss">向下滑动以关闭播放栏</string>
+    <string name="pref_summary_swipe_to_dismiss">向下滑动播放栏即可停止播放</string>
     <string name="pref_summary_toggle_full_screen">沉浸模式</string>
     <string name="pref_summary_toggle_headset">连接耳机后立即开始播放</string>
     <string name="pref_summary_toggle_shuffle">播放新列表时关闭随机播放</string>
