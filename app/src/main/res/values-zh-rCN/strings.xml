@@ -142,6 +142,15 @@
     <string name="currently_listening_to_x_by_x">正在收听 %2$s 的 %1$s。</string>
     <string name="custom_artist_images">自定义歌手图像</string>
     <string name="customactivityoncrash_error_activity_error_details_share">发送崩溃报告</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">哎呀，YiClap 发生了意外的小错误呢。\n真是抱歉给你带来麻烦啦！</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重启 YiClap</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭 YiClap</string>
+    <string name="customactivityoncrash_error_activity_error_details">错误信息</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">错误信息</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制到剪贴板</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">已复制到剪贴板哦</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误信息</string>
     <string name="dark_theme_name">深色</string>
     <string name="delete_playlist_title">删除歌单</string>
     <string name="delete_playlist_x"><![CDATA[确定删除歌单 <b>%1$s</b> 吗？]]></string>
