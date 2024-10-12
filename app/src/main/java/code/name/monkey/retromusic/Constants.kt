@@ -22,7 +22,7 @@ object Constants {
     const val TELEGRAM_CHANGE_LOG = "https://t.me/lyi_channel"
     const val USER_PROFILE = "profile.jpg"
     const val USER_BANNER = "banner.jpg"
-    const val FAQ_LINK = "https://github.com/lingyicute/YiClap/blob/main/FAQ.md"
+    const val FAQ_LINK = "https://github.com/lingyicute/YiClap/blob/main/README.md"
 
     const val IS_MUSIC =
         MediaStore.Audio.AudioColumns.IS_MUSIC + "=1" + " AND " + MediaStore.Audio.AudioColumns.TITLE + " != ''"
