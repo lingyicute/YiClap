@@ -345,12 +345,11 @@
     <string name="pref_summary_album_art_on_lockscreen">将正在播放的歌曲专辑封面设置为锁屏壁纸</string>
     <string name="pref_summary_album_artists_only">在歌手类别中显示专辑歌手</string>
     <string name="pref_summary_audio_ducking">当系统播放声音或收到通知时降低音量</string>
-    <string name="pref_summary_audio_fade">当歌曲暂停或播放时，淡入淡出音频</string>
+    <string name="pref_summary_audio_fade">当歌曲被播放或暂停时，缓慢改变音量</string>
     <string name="pref_summary_blacklist">YiClap 会隐藏黑名单里的内容</string>
     <string name="pref_summary_bluetooth_playback">连接到蓝牙设备后立即开始播放</string>
-    <string name="pref_summary_blurred_album_art">模糊化显示锁屏上的专辑封面。可能与第三方应用或小部件产生冲突。</string>
-    <string name="pref_summary_carousel_effect">在播放页为专辑图片使用轮播效果。
-使用时卡片和模糊卡片主题不会生效。</string>
+    <string name="pref_summary_blurred_album_art">模糊化显示锁屏上的专辑封面，可能与第三方应用或小部件产生冲突。</string>
+    <string name="pref_summary_carousel_effect">在播放页为专辑图片使用轮播效果。使用时卡片和模糊卡片主题将不再生效～</string>
     <string name="pref_summary_classic_notification">使用经典通知样式</string>
     <string name="pref_summary_colored_app">背景及控件颜色跟随专辑封面变化</string>
     <string name="pref_summary_colored_app_shortcuts">将快捷方式颜色和主题色同步</string>
@@ -389,7 +388,7 @@
     <string name="pref_title_audio_fade">音频淡入淡出</string>
     <string name="pref_title_auto_download_artist_images">自动下载歌手图片</string>
     <string name="pref_title_blacklist">黑名单</string>
-    <string name="pref_title_bluetooth_playback">蓝牙播放</string>
+    <string name="pref_title_bluetooth_playback">蓝牙自动播放</string>
     <string name="pref_title_blurred_album_art">模糊专辑封面</string>
     <string name="pref_title_circle_button">圆形播放按钮</string>
     <string name="pref_title_classic_notification">经典通知样式</string>
@@ -422,7 +421,7 @@
     <string name="pref_title_swipe_to_dismiss">下滑关闭</string>
     <string name="pref_title_tab_text_mode">标签页标题模式</string>
     <string name="pref_title_toggle_carousel_effect">轮播效果</string>
-    <string name="pref_title_toggle_full_screen">全屏应用</string>
+    <string name="pref_title_toggle_full_screen">全屏显示</string>
     <string name="pref_title_toggle_toggle_headset">自动播放</string>
     <string name="pref_title_toggle_toggle_shuffle">随机播放</string>
     <string name="pref_title_toggle_volume">音量控件</string>
