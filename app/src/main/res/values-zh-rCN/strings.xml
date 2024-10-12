@@ -80,14 +80,14 @@
     <string name="artist">歌手</string>
     <string name="artists">歌手</string>
     <string name="audio_fade_duration">音乐淡入淡出时长</string>
-    <string name="audio_focus_denied">音频焦点丢失。</string>
+    <string name="audio_focus_denied">音频焦点丢失</string>
     <string name="audio_settings_summary">更改声音设置或调整均衡器</string>
     <string name="auto">自动</string>
     <string name="backup_restore_settings_summary">备份、恢复您的设置和歌单</string>
     <string name="backup_restore_title"><![CDATA[备份与还原]]></string>
     <string name="backup_title">备份</string>
     <string name="biography">简介</string>
-    <string name="black_theme_name">纯黑</string>
+    <string name="black_theme_name">纯黑色主题</string>
     <string name="blacklist">黑名单</string>
     <string name="bluetooth_summary">YiClap 需要附近设备权限才能扫描蓝牙设备</string>
     <string name="bluetooth_title">附近设备</string>
@@ -244,7 +244,7 @@
     <string name="last_song">最后一首</string>
     <string name="lets_go">出发啦！</string>
     <string name="library_categories">媒体库分类</string>
-    <string name="licenses">许可</string>
+    <string name="licenses">鸣谢</string>
     <string name="light_theme_name">浅色</string>
     <string name="listeners_label">听众</string>
     <string name="listing_files">正在列出文件</string>
