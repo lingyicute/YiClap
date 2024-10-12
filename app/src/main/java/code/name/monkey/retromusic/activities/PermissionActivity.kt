@@ -1,6 +1,8 @@
 package code.name.monkey.retromusic.activities
 
 import android.Manifest.permission.BLUETOOTH_CONNECT
+import android.app.AlarmManager
+import androidx.core.content.getSystemService
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.ColorStateList
@@ -64,6 +66,11 @@ class PermissionActivity : AbsMusicServiceActivity() {
                     BLUETOOTH_PERMISSION_REQUEST
                 )
             }
+            binding.alarmPermission.show()
+            binding.alarmPermission.setButtonClick {
+                val intent = Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM)
+                startActivity(intent)
+            }
         } else {
             binding.audioPermission.setNumber("2")
         }
@@ -120,6 +127,11 @@ class PermissionActivity : AbsMusicServiceActivity() {
                 binding.bluetoothPermission.checkImage.imageTintList =
                     ColorStateList.valueOf(accentColor())
             }
+            if (hasAlarmPermission()) {
+                binding.alarmPermission.checkImage.isVisible = true
+                binding.alarmPermission.checkImage.imageTintList =
+                    ColorStateList.valueOf(accentColor())
+            }
         }
     }
 
@@ -138,5 +150,9 @@ class PermissionActivity : AbsMusicServiceActivity() {
     @RequiresApi(Build.VERSION_CODES.M)
     private fun hasAudioPermission(): Boolean {
         return Settings.System.canWrite(this)
+    }
+    @RequiresApi(Build.VERSION_CODES.S)
+    private fun hasAlarmPermission(): Boolean {
+        return getSystemService<AlarmManager>()?.canScheduleExactAlarms() == true
     }
 }
