@@ -19,6 +19,8 @@ jobs:
       - uses: gradle/gradle-build-action@v2.4.2
       - name: Chmod
         run: chmod 755 gradlew
+      - name: Clean
+        run: ./gradlew clean
       - name: Build
         run: ./gradlew app:assemble
       - name: Tree
