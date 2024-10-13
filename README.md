@@ -52,11 +52,18 @@ YiClap 完全不联网，它甚至根本没有申请联网权限。因此，它�
 - 按歌曲、专辑、歌手和歌单浏览和播放音乐
 - 智能分类 - 最近播放、最多播放和历史记录
 
-> Please note: YiClap is an offline music player app. It doesn't support music downloading or online music streaming.
+> 注意：别忘了 YiClap 是一个离线音乐播放器哦。 因此，它不支持在线音乐平台的流转播放。
 
 ## 🕐 更新日志
 ### August 18, 2024 — v7.1.0
 - YiClap 已采用 Target API 33 构建，支持新版媒体权限框架、照片拾取器、独立语言偏好、预测性返回手势等特性。
+
+### October 11, 2024 — v7.2.0
+- 修复了崩溃时无法正确显示错误信息的问题，同时修复在 Android 11 及更低版本系统上的若干兼容性问题。
+
+### October 13, 2024 — v7.2.1
+- 修复 Android 14 及更高版本系统中睡眠定时器无法设置的问题。
+- 此版本已采用 Target API 34 构建，稳定性更佳～
 
 ## 🤗 常见问题
 
