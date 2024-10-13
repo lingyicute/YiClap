@@ -457,7 +457,7 @@
     <string name="restoring_purchase">正在恢复…</string>
     <string name="retro_music_player">YiClap 播放器</string>
     <string name="retro_music_pro">YiClap</string>
-    <string name="ringtone_summary">YiClap 需要系统设置访问权限，才能将音乐设置为铃声</string>
+    <string name="ringtone_summary">YiClap 需要系统设置访问权限才能将音乐设置为铃声</string>
     <string name="ringtone_title">铃声（可选）</string>
     <string name="saf_delete_failed">文件删除失败：%s</string>
     <!-- SAF -->
