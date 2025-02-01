@@ -68,6 +68,7 @@ class AppShortcutLauncherActivity : Activity() {
             INTENT_EXTRA_PLAYLIST to playlist,
             INTENT_EXTRA_SHUFFLE_MODE to shuffleMode
         )
+        intent.setPackage(this.packageName)
 
         intent.putExtras(bundle)
 

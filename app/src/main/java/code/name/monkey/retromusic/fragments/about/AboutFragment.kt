@@ -62,13 +62,12 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
         }
     }
 
-    private fun getAppVersion(): String {
-        return try {
-            requireActivity().packageManager.getPackageInfo(requireActivity().packageName, 0).versionName
-        } catch (e: PackageManager.NameNotFoundException) {
-            e.printStackTrace()
+    private fun getAppVersion() = try {
+        requireActivity().packageManager
+            .getPackageInfo(requireActivity().packageName, 0)
+            .versionName ?: "unknown"
+    } catch (e: Exception) {
             "0.0.0"
-        }
     }
 
     override fun onDestroyView() {

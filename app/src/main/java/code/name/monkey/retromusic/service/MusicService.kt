@@ -42,6 +42,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.edit
 import androidx.core.content.getSystemService
 import androidx.core.os.BundleCompat
+import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.media.MediaBrowserServiceCompat
 import androidx.preference.PreferenceManager
 import code.name.monkey.appthemehelper.util.VersionUtils
@@ -289,8 +290,12 @@ class MusicService : MediaBrowserServiceCompat(),
         setupMediaSession()
 
         uiThreadHandler = Handler(Looper.getMainLooper())
-        ContextCompat.registerReceiver(this, widgetIntentReceiver, IntentFilter(APP_WIDGET_UPDATE), ContextCompat.RECEIVER_NOT_EXPORTED)
-        ContextCompat.registerReceiver(this, updateFavoriteReceiver, IntentFilter(FAVORITE_STATE_CHANGED), ContextCompat.RECEIVER_NOT_EXPORTED)
+        LocalBroadcastManager.getInstance(this).registerReceiver(
+            widgetIntentReceiver, IntentFilter(APP_WIDGET_UPDATE)
+        )
+        LocalBroadcastManager.getInstance(this).registerReceiver(
+            updateFavoriteReceiver, IntentFilter(FAVORITE_STATE_CHANGED)
+        )
         registerReceiver(lockScreenReceiver, IntentFilter(Intent.ACTION_SCREEN_ON))
         sessionToken = mediaSession?.sessionToken
         notificationManager = getSystemService()
@@ -320,8 +325,8 @@ class MusicService : MediaBrowserServiceCompat(),
     }
 
     override fun onDestroy() {
-        unregisterReceiver(widgetIntentReceiver)
-        unregisterReceiver(updateFavoriteReceiver)
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(widgetIntentReceiver)
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(updateFavoriteReceiver)
         unregisterReceiver(lockScreenReceiver)
         if (headsetReceiverRegistered) {
             unregisterReceiver(headsetReceiver)
@@ -631,7 +636,7 @@ class MusicService : MediaBrowserServiceCompat(),
     }
 
     override fun onSharedPreferenceChanged(
-        sharedPreferences: SharedPreferences, key: String,
+        sharedPreferences: SharedPreferences, key: String?,
     ) {
         when (key) {
             PLAYBACK_SPEED, PLAYBACK_PITCH -> {
@@ -841,7 +846,8 @@ class MusicService : MediaBrowserServiceCompat(),
     fun toggleFavorite() {
         serviceScope.launch {
             toggleFavorite(currentSong)
-            sendBroadcast(Intent(FAVORITE_STATE_CHANGED))
+            LocalBroadcastManager.getInstance(this@MusicService)
+                .sendBroadcast(Intent(FAVORITE_STATE_CHANGED))
         }
     }
 
@@ -1270,7 +1276,7 @@ class MusicService : MediaBrowserServiceCompat(),
 
     private fun registerHeadsetEvents() {
         if (!headsetReceiverRegistered && isHeadsetPlugged) {
-            registerReceiver(headsetReceiver, headsetReceiverIntentFilter)
+            ContextCompat.registerReceiver(this, headsetReceiver, headsetReceiverIntentFilter, ContextCompat.RECEIVER_EXPORTED)
             headsetReceiverRegistered = true
         }
     }
@@ -1311,7 +1317,7 @@ class MusicService : MediaBrowserServiceCompat(),
     }
 
     private fun sendChangeInternal(what: String) {
-        sendBroadcast(Intent(what))
+        LocalBroadcastManager.getInstance(this).sendBroadcast(Intent(what))
         appWidgetBig.notifyChange(this, what)
         appWidgetClassic.notifyChange(this, what)
         appWidgetSmall.notifyChange(this, what)

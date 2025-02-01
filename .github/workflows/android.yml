@@ -11,20 +11,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-java@v3
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
         with:
-          java-version: '17'
           distribution: 'zulu'
-      - uses: gradle/gradle-build-action@v2.4.2
+          java-version: '21'
+
+      - uses: gradle/actions/setup-gradle@v3
+
       - name: Chmod
-        run: chmod 755 gradlew
-      - name: Clean
-        run: ./gradlew clean
+        run: chmod +x gradlew
+
       - name: Build
         run: ./gradlew app:assemble
-      - name: Tree
-        run: tree -ash \${{ github.workspace }}
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:

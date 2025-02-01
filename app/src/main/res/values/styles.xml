@@ -256,9 +256,20 @@
         <item name="cornerSize">50%</item>
     </style>
 
-    <style name="Widget.Retro.Slider" parent="Widget.Material3.Slider">
+    <style name="Widget.Retro.Slider" parent="Widget.Material3.Slider.Legacy">
         <item name="labelBehavior">gone</item>
         <item name="thumbRadius">6dp</item>
         <item name="haloRadius">18dp</item>
+    </style>
+
+    <style name="Widget.Retro.MD3.Custom.Slider" parent="Widget.Material3.Slider">
+        <item name="labelBehavior">gone</item>
+        <item name="thumbHeight">26dp</item>
+        <item name="thumbWidth">4dp</item>
+        <item name="thumbTrackGapSize">4dp</item>
+        <item name="trackHeight">14dp</item>
+        <item name="thumbElevation">0dp</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="haloRadius">0dp</item>
     </style>
 </resources>

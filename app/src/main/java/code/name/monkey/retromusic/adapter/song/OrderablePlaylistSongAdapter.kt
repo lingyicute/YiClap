@@ -25,6 +25,7 @@ import code.name.monkey.retromusic.db.toSongEntity
 import code.name.monkey.retromusic.db.toSongsEntity
 import code.name.monkey.retromusic.dialogs.RemoveSongFromPlaylistDialog
 import code.name.monkey.retromusic.fragments.LibraryViewModel
+import code.name.monkey.retromusic.helper.MusicPlayerRemote
 import code.name.monkey.retromusic.model.Song
 import code.name.monkey.retromusic.util.ViewUtil
 import com.h6ah4i.android.widget.advrecyclerview.draggable.DraggableItemAdapter
@@ -43,9 +44,20 @@ class OrderablePlaylistSongAdapter(
 
     val libraryViewModel: LibraryViewModel by activity.viewModel()
 
+    private var filtered = false
+    private var filter: CharSequence? = null
+    private var fullDataSet: MutableList<Song>
+
     init {
         this.setHasStableIds(true)
         this.setMultiSelectMenuRes(R.menu.menu_playlists_songs_selection)
+        fullDataSet = dataSet.toMutableList()
+    }
+
+    override fun swapDataSet(dataSet: List<Song>) {
+        super.swapDataSet(dataSet)
+        fullDataSet = dataSet.toMutableList()
+        onFilter(filter)
     }
 
     override fun getItemId(position: Int): Long {
@@ -90,13 +102,22 @@ class OrderablePlaylistSongAdapter(
             return super.onSongMenuItemClick(item)
         }
 
+        override fun onClick(v: View?) {
+            if (isInQuickSelectMode || !filtered) {
+                super.onClick(v)
+            } else {
+                val position = fullDataSet.indexOf(dataSet.get(layoutPosition))
+                MusicPlayerRemote.openQueueKeepShuffleMode(fullDataSet, position, true)
+            }
+        }
+
         init {
             dragView?.isVisible = true
         }
     }
 
     override fun onCheckCanStartDrag(holder: ViewHolder, position: Int, x: Int, y: Int): Boolean {
-        if (isInQuickSelectMode) {
+        if (isInQuickSelectMode || filtered) {
             return false
         }
         return ViewUtil.hitTest(holder.imageText!!, x, y) || ViewUtil.hitTest(
@@ -127,8 +148,27 @@ class OrderablePlaylistSongAdapter(
     }
 
     fun saveSongs(playlistEntity: PlaylistEntity) {
+        onFilter(null)
         activity.lifecycleScope.launch(Dispatchers.IO) {
             libraryViewModel.insertSongs(dataSet.toSongsEntity(playlistEntity))
         }
+    }
+
+
+    fun onFilter(text: CharSequence?) {
+        filter = text
+        if (text.isNullOrEmpty()) {
+            filtered = false
+            dataSet = fullDataSet
+        } else {
+            filtered = true
+            dataSet = fullDataSet.filter { song -> song.title.contains(text, ignoreCase = true) }
+                .toMutableList()
+        }
+        notifyDataSetChanged()
+    }
+
+    fun hasSongs(): Boolean {
+        return itemCount > 0 || (filtered && fullDataSet.size > 0)
     }
 }

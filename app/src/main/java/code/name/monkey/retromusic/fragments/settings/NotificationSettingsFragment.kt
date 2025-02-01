@@ -31,7 +31,7 @@ import code.name.monkey.retromusic.util.PreferenceUtil
 
 class NotificationSettingsFragment : AbsSettingsFragment(),
     SharedPreferences.OnSharedPreferenceChangeListener {
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String?) {
         if (key == CLASSIC_NOTIFICATION) {
             if (VERSION.SDK_INT >= VERSION_CODES.O) {
                 findPreference<Preference>(COLORED_NOTIFICATION)?.isEnabled =
