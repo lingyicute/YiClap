@@ -47,7 +47,7 @@ import code.name.monkey.retromusic.extensions.showToast
 import code.name.monkey.retromusic.extensions.textColorPrimary
 import code.name.monkey.retromusic.extensions.textColorSecondary
 import code.name.monkey.retromusic.fragments.base.AbsMainActivityFragment
-import code.name.monkey.retromusic.helper.MusicPlayerRemote.openQueue
+import code.name.monkey.retromusic.helper.MusicPlayerRemote.openQueueKeepShuffleMode
 import code.name.monkey.retromusic.helper.menu.SongMenuHelper
 import code.name.monkey.retromusic.helper.menu.SongsMenuHelper
 import code.name.monkey.retromusic.interfaces.ICallbacks
@@ -286,7 +286,7 @@ class FoldersFragment : AbsMainActivityFragment(R.layout.fragment_folder),
                             }
                         }
                         if (startIndex > -1) {
-                            openQueue(songs, startIndex, true)
+                            openQueueKeepShuffleMode(songs, startIndex, true)
                         } else {
                             Snackbar.make(
                                 mainActivity.slidingPanel,
