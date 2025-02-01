@@ -248,6 +248,8 @@ object PreferenceUtil {
 
     val isScreenOnEnabled get() = sharedPreferences.getBoolean(KEEP_SCREEN_ON, false)
 
+    val isShowWhenLockedEnabled get() = sharedPreferences.getBoolean(SHOW_WHEN_LOCKED, false)
+
     val isSongInfo get() = sharedPreferences.getBoolean(EXTRA_SONG_INFO, false)
 
     val isPauseOnZeroVolume get() = sharedPreferences.getBoolean(PAUSE_ON_ZERO_VOLUME, false)

@@ -32,6 +32,22 @@ fun AppCompatActivity.keepScreenOn(keepScreenOn: Boolean) {
     }
 }
 
+fun AppCompatActivity.maybeShowWhenLocked() {
+    if (PreferenceUtil.isShowWhenLockedEnabled) {
+        if (VersionUtils.hasOreoMR1()) {
+            setShowWhenLocked(true)
+        } else {
+            window.addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED)
+        }
+    } else {
+        if (VersionUtils.hasOreoMR1()) {
+            setShowWhenLocked(false)
+        } else {
+            window.clearFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED)
+        }
+    }
+}
+
 fun AppCompatActivity.setEdgeToEdgeOrImmersive() {
     if (PreferenceUtil.isFullScreenMode) {
         setImmersiveFullscreen()

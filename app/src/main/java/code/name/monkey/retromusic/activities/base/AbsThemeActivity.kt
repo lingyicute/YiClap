@@ -41,6 +41,7 @@ abstract class AbsThemeActivity : ATHToolbarActivity(), Runnable {
         super.onCreate(savedInstanceState)
         setEdgeToEdgeOrImmersive()
         maybeSetScreenOn()
+        maybeShowWhenLocked()
         setLightNavigationBarAuto()
         setLightStatusBarAuto(surfaceColor())
         if (VersionUtils.hasQ()) {
