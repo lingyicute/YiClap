@@ -185,11 +185,14 @@ object PreferenceUtil {
             AlbumSongSortOrder.SONG_TRACK_LIST
         )
 
-    val artistAlbumSortOrder
+    var artistAlbumSortOrder
         get() = sharedPreferences.getStringOrDefault(
             ARTIST_ALBUM_SORT_ORDER,
-            ArtistAlbumSortOrder.ALBUM_A_Z
+            ArtistAlbumSortOrder.ALBUM_YEAR
         )
+        set(value) = sharedPreferences.edit {
+            putString(ARTIST_ALBUM_SORT_ORDER, value)
+        }
 
     var playlistSortOrder
         get() = sharedPreferences.getStringOrDefault(
@@ -648,6 +651,9 @@ object PreferenceUtil {
 
     val rememberLastTab: Boolean
         get() = sharedPreferences.getBoolean(REMEMBER_LAST_TAB, true)
+
+    val enableSearchPlaylist: Boolean
+        get() = sharedPreferences.getBoolean(ENABLE_SEARCH_PLAYLIST, true)
 
     var lastTab: Int
         get() = sharedPreferences

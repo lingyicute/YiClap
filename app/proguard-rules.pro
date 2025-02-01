@@ -31,6 +31,9 @@
 # RetroFit
 -dontwarn retrofit.**
 -keep class retrofit.** { *; }
+-keep,allowobfuscation,allowshrinking interface retrofit2.Call
+-keep,allowobfuscation,allowshrinking class retrofit2.Response
+-keep,allowobfuscation,allowshrinking class kotlin.coroutines.Continuation
 
 # Glide
 -keep public class * implements com.bumptech.glide.module.GlideModule
@@ -69,3 +72,8 @@
 -keep class code.name.monkey.retromusic.network.model.** { *; }
 -keep class code.name.monkey.retromusic.model.** { *; }
 -keep class com.google.android.material.bottomsheet.** { *; }
+
+# TypeToken https://stackoverflow.com/questions/70969756/caused-by-java-lang-runtimeexception-missing-type-parameter
+-keep class com.google.gson.reflect.TypeToken
+-keep class * extends com.google.gson.reflect.TypeToken
+-keep public class * implements java.lang.reflect.Type

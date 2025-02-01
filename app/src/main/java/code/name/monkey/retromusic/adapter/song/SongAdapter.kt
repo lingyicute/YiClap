@@ -216,7 +216,7 @@ open class SongAdapter(
             if (isInQuickSelectMode) {
                 toggleChecked(layoutPosition)
             } else {
-                MusicPlayerRemote.openQueue(dataSet, layoutPosition, true)
+                MusicPlayerRemote.openQueueKeepShuffleMode(dataSet, layoutPosition, true)
             }
         }
 

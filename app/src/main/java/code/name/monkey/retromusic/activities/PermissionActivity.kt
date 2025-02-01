@@ -151,6 +151,7 @@ class PermissionActivity : AbsMusicServiceActivity() {
     private fun hasAudioPermission(): Boolean {
         return Settings.System.canWrite(this)
     }
+    
     @RequiresApi(Build.VERSION_CODES.S)
     private fun hasAlarmPermission(): Boolean {
         return getSystemService<AlarmManager>()?.canScheduleExactAlarms() == true

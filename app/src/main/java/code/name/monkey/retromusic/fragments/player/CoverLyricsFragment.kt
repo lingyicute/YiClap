@@ -69,9 +69,9 @@ class CoverLyricsFragment : AbsMusicServiceFragment(R.layout.fragment_cover_lyri
 
     }
 
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences?, key: String?) {
+    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String?) {
         if (key == SHOW_LYRICS) {
-            if (sharedPreferences?.getBoolean(key, false) == true) {
+            if (sharedPreferences.getBoolean(key, false) == true) {
                 progressViewUpdateHelper?.start()
                 binding.root.isVisible = true
                 updateLyrics()

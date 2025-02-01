@@ -9,6 +9,7 @@ import android.media.AudioManager
 import android.media.MediaPlayer
 import android.media.PlaybackParams
 import androidx.annotation.CallSuper
+import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
 import androidx.core.net.toUri
 import androidx.media.AudioAttributesCompat
@@ -139,7 +140,7 @@ abstract class LocalPlayback(val context: Context) : Playback, MediaPlayer.OnErr
                 player.setOnPreparedListener(null)
                 completion(true)
             }
-            player.prepareAsync()
+            player.prepare()
         } catch (e: Exception) {
             completion(false)
             e.printStackTrace()
@@ -157,9 +158,11 @@ abstract class LocalPlayback(val context: Context) : Playback, MediaPlayer.OnErr
 
     private fun registerBecomingNoisyReceiver() {
         if (!becomingNoisyReceiverRegistered) {
-            context.registerReceiver(
+            ContextCompat.registerReceiver(
+                context,
                 becomingNoisyReceiver,
-                becomingNoisyReceiverIntentFilter
+                becomingNoisyReceiverIntentFilter,
+                ContextCompat.RECEIVER_EXPORTED
             )
             becomingNoisyReceiverRegistered = true
         }

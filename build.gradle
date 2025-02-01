@@ -2,12 +2,12 @@
 
 buildscript {
     ext {
-        lifecycle_version = '2.6.1'
-        navigation_version = '2.5.3'
-        mdc_version = '1.9.0-beta01'
-        preference_version = '1.2.0'
+        lifecycle_version = '2.7.0'
+        navigation_version = '2.7.6'
+        mdc_version = '1.9.0'
+        preference_version = '1.2.1'
         appcompat_version = '1.6.1'
-        core_version = '1.10.0-rc01'
+        core_version = '1.12.0'
     }
 
     repositories {
@@ -15,14 +15,14 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10"
+        classpath 'com.android.tools.build:gradle:8.8.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigation_version"
     }
 }
 plugins {
     id "com.github.ben-manes.versions" version "0.46.0"
-    id 'com.google.devtools.ksp' version '1.8.10-1.0.9' apply false
+    id 'com.google.devtools.ksp' version '1.9.22-1.0.17' apply false
 }
 
 tasks.register('clean', Delete) {
