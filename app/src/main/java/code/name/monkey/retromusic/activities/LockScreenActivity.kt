@@ -75,11 +75,6 @@ class LockScreenActivity : AbsMusicServiceActivity() {
 
         fragment = whichFragment<LockScreenControlsFragment>(R.id.playback_controls_fragment)
 
-        binding.slide.apply {
-            translationY = 100f
-            alpha = 0f
-            animate().translationY(0f).alpha(1f).setDuration(1500).start()
-        }
     }
 
     @Suppress("Deprecation")
