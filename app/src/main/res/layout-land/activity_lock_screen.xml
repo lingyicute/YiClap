@@ -51,18 +51,6 @@
                         android:scaleType="centerCrop"
                         tools:ignore="ContentDescription,UnusedAttribute"
                         tools:srcCompat="@tools:sample/backgrounds/scenic" />
-
-                    <com.google.android.material.textview.MaterialTextView
-                        android:id="@+id/slide"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_horizontal|bottom"
-                        android:elevation="3dp"
-                        android:fitsSystemWindows="true"
-                        android:gravity="center"
-                        android:padding="16dp"
-                        android:text="@string/swipe_to_unlock"
-                        android:textColor="?android:attr/textColorPrimary" />
                 </com.google.android.material.card.MaterialCardView>
             </code.name.monkey.retromusic.views.HeightFitSquareLayout>
 

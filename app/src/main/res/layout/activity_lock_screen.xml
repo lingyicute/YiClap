@@ -62,16 +62,5 @@
                 android:layout_height="match_parent"
                 tools:layout="@layout/fragment_lock_screen_playback_controls" />
         </LinearLayout>
-
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/slide"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:fitsSystemWindows="true"
-            android:gravity="center"
-            android:padding="16dp"
-            android:text="@string/swipe_to_unlock"
-            android:textColor="?android:attr/textColorPrimary" />
     </LinearLayout>
 </RelativeLayout>
