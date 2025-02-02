@@ -15,8 +15,8 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         applicationId 'io.github.lingyicute.Music'
-        versionCode 10736
-        versionName '7.3.6'
+        versionCode 10737
+        versionName '7.3.7'
 
         multiDexEnabled true
     }
