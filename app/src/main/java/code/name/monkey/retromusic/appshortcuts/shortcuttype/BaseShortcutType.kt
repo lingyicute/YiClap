@@ -42,7 +42,7 @@ abstract class BaseShortcutType(internal var context: Context) {
     }
 
     companion object {
-        internal const val ID_PREFIX = "io.github.lingyicute.Music.appshortcuts.id."
+        internal const val ID_PREFIX = "io.github.lingyicute.music.appshortcuts.id."
         val id: String
             get() = ID_PREFIX + "invalid"
     }

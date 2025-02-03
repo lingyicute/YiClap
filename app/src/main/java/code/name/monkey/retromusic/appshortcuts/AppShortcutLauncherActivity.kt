@@ -76,7 +76,7 @@ class AppShortcutLauncherActivity : Activity() {
     }
 
     companion object {
-        const val KEY_SHORTCUT_TYPE = "io.github.lingyicute.Music.appshortcuts.ShortcutType"
+        const val KEY_SHORTCUT_TYPE = "io.github.lingyicute.music.appshortcuts.ShortcutType"
         const val SHORTCUT_TYPE_SHUFFLE_ALL = 0L
         const val SHORTCUT_TYPE_TOP_TRACKS = 1L
         const val SHORTCUT_TYPE_LAST_ADDED = 2L
