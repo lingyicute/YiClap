@@ -439,7 +439,7 @@
     <string name="remove_action">移除</string>
     <string name="remove_cover">移除封面</string>
     <string name="remove_from_blacklist">从黑名单中移除</string>
-    <string name="remove_image">移除图像</string>
+    <string name="remove_image">移除图片</string>
     <string name="remove_song_from_playlist_title">从歌单中删除歌曲</string>
     <string name="remove_song_x_from_playlist"><![CDATA[是否从歌单中删除歌曲 <b>%1$s</b>？]]></string>
     <string name="remove_songs_from_playlist_title">从歌单中删除歌曲</string>
