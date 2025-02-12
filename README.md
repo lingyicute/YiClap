@@ -1,6 +1,6 @@
 # YiClap ✨
-## Made for My Best Xyc～❤️
-### 送给我最爱的、喜欢听歌的小蟹同学～❤️
+### 送给全世界最好的莹：
+### “谢谢你成为我无数晦暗时刻里的光”❤️
 
 ![image](https://raw.githubusercontent.com/lingyicute/YiClap/main/app/src/main/res/drawable/material_design_default.webp)
 
