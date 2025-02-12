@@ -1,6 +1,5 @@
 # YiClap ✨
-## Made for My Best Xyc～❤️
-### 送给我最爱的、喜欢听歌的小蟹同学～❤️
+## 送给全世界最可爱的漂漂～❤️
 
 ![image](https://raw.githubusercontent.com/lingyicute/YiClap/main/app/src/main/res/drawable/material_design_default.webp)
 
