@@ -1,5 +1,5 @@
 # YiClap ✨
-## Made for My Best Xyc～❤️
+## Made with love ❤️
 
 ![image](https://raw.githubusercontent.com/lingyicute/YiClap/main/app/src/main/res/drawable/material_design_default.webp)
 
