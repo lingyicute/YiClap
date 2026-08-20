@@ -205,7 +205,7 @@ YiClap默认使用系统字体，“星念你”是动态替换的。可惜国�
 
 YiClap is released under the GNU General Public License v3.0 (GPLv3).
 
-Copyright (C) 2024 lingyicute.
+Copyright (C) 2024-2026 lingyicute.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
