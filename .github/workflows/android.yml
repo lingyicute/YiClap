@@ -5,6 +5,9 @@ on:
     paths-ignore:
       - '**.md'
 
+permissions:   
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,8 +26,24 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build
-        run: ./gradlew app:assemble
+        run: ./gradlew app:assemble && tree app/build/outputs/apk/release/
+        
+      - name: Delete old nightly release 
+        run: gh release delete nightly --yes --cleanup-tag || true
+        env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Publish nightly release 
+        run: |
+            gh release create nightly \
+              app/build/outputs/apk/release/*.apk \
+            --title "Nightly Build" \
+            --notes "auto build · ${GITHUB_SHA:0:7} · ${GITHUB_REF_NAME}" \
+            --prerelease \
+            --target "$GITHUB_SHA"
+        env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
