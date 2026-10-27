@@ -201,21 +201,8 @@ YiClap默认使用系统字体，“星念你”是动态替换的。可惜国�
 
 要成功恢复歌单，“歌单”文件里记录的歌曲位置和你的手机里歌曲文件的实际位置必须相同。例如，如果你的音乐在“内部存储/Music”中，而歌单文件记载的歌曲位置在“内部存储/Songs”中。那么它当然无法工作，因为这两个位置无论怎么说都不一样，对吧？
 
-## 🗂️ License
+## 🗂️ 致谢与许可
 
-YiClap is released under the GNU General Public License v3.0 (GPLv3).
+YiClap 是 Retro Music Player 的下游定制版本，由 lingyicute 维护。感谢所有上游开发者的开源贡献。
 
-Copyright (C) 2024-2026 lingyicute.
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see https://www.gnu.org/licenses.
+上游代码和下游修改均按照 [GPL-3.0](LICENSE) 授权。
